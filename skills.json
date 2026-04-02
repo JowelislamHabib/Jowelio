@@ -1,0 +1,24 @@
+{
+  "technicalSkillsTitle": "Technical Skills",
+  "certificationsTitle": "Certifications",
+  "certificateViewTitle": "Certificate View",
+  "skills": [
+    "MERN Stack",
+    "WordPress",
+    "XenForo",
+    "JavaScript",
+    "Server Administration"
+  ],
+  "certificates": [
+    {
+      "id": "freelance",
+      "name": "Government Approved Freelancer (Bangladesh)",
+      "type": "image"
+    },
+    {
+      "id": "wds",
+      "name": "Certified Web Design Specialist",
+      "type": "image"
+    }
+  ]
+}
