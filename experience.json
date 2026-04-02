@@ -1,0 +1,30 @@
+[
+  {
+    "role": "WordPress CMS Developer",
+    "company": "PeoplePerHour",
+    "type": "Freelance",
+    "location": null,
+    "date": "August 2016 — Present",
+    "description": "Providing freelance website customization and CMS solutions through the marketplace.",
+    "points": [
+      "Customizing WordPress themes and plugins based on client requirements",
+      "Customizing XenForo styles, addons, and forum layouts",
+      "Modifying existing websites to add features and fix bugs",
+      "Optimizing performance and managing Ubuntu, CyberPanel, and OpenLiteSpeed"
+    ]
+  },
+  {
+    "role": "IT Support Specialist",
+    "company": "Estidama Investment Holding",
+    "type": "Remote",
+    "location": "Riyadh, Saudi Arabia",
+    "date": "August 2018 — 2022",
+    "description": "Managed remote IT operations across WHM/cPanel hosting environments and WordPress websites.",
+    "points": [
+      "Maintained and optimized websites to ensure uptime, performance, and basic security.",
+      "Handled server-level tasks using WHM, including account management, backups, and configurations.",
+      "Implemented backup and recovery processes to reduce downtime and protect data.",
+      "Provided remote technical support, resolving user, access, and system-related issues."
+    ]
+  }
+]
