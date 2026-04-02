@@ -1,0 +1,7 @@
+{
+  "badgeText": "FullStack Developer",
+  "title": "Jowel Islam Habib",
+  "description": "Passionate about ...",
+  "primaryCta": { "label": "Contact Me", "href": "#contact" },
+  "secondaryCta": { "label": "View Work", "href": "#projects" }
+}
