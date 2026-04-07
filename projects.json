@@ -1,5 +1,21 @@
 [
   {
+  "name": "Simple BookStore – Premium Literature Exploration UI",
+  "description": "Developed a professional, minimal web application for book enthusiasts to discover, track, and manage their personal reading collections with a focus on high-end typography and clean UI.",
+  "details": "This project showcases advanced React Router implementations, persistent data management via LocalStorage, and a refined design system built on Tailwind CSS and DaisyUI.",
+  "keyContributions": [
+    "Architected dynamic routing for seamless navigation between catalog, details, and list views",
+    "Implemented persistent data logic for 'Read List' and 'Wishlist' across browser sessions",
+    "Developed an editorial-style Book Details page with a focus on content hierarchy and top-aligned imagery",
+    "Designed a professional, cart-style list interface for efficient collection management",
+    "Integrated Lucide icons and Google Fonts (Outfit) for a cohesive, modern aesthetic"
+  ],
+  "tech": ["ReactJS", "React Router", "Tailwind CSS", "DaisyUI", "Lucide Icons"],
+  "github": "https://github.com/JowelislamHabib/Simple-React-Route-BookStore",
+  "live": "https://jowel.bintofajjal.com/project-reactjs/bookstore/",
+  "category": "ReactJS"
+},
+{
     "name": "DigiTools Platform – React E-commerce UI with Dynamic Cart",
     "description": "Built a modern web application for exploring and purchasing digital workflow tools, focusing on clean UI design and interactive user experience.",
     "details": "This project highlights my understanding of state management, component-based architecture, and building real-world interactive interfaces using modern frontend tools.",
