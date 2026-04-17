@@ -1,211 +1,256 @@
-[
-  {
-  "name": "Bondly — Keep Your Network Alive",
-  "description": "Developed a modern relationship management web application that helps users build, organize, and maintain meaningful personal and professional connections through a clean and intuitive interface.",
-  "details": "This project demonstrates scalable frontend architecture using Next.js and React, efficient state management with Context API, and interactive data visualization using Recharts. The application focuses on performance, usability, and a smooth user experience.",
-  "keyContributions": [
-    "Designed and developed a responsive UI with Tailwind CSS and daisyUI for a clean and modern experience",
-    "Implemented Context API for managing global state such as friends and timeline interactions",
-    "Built dynamic routing using Next.js App Router for user profiles, stats, and timeline pages",
-    "Integrated data visualization using Recharts to represent user interaction insights",
-    "Added toast notifications for real-time user feedback using React Toastify",
-    "Structured the project for scalability and maintainability following modern best practices"
-  ],
-  "tech": ["Next.js", "React.js", "Tailwind CSS", "daisyUI", "Recharts", "React Toastify", "Node.js"],
-  "github": "https://github.com/JowelislamHabib/Bondly",
-  "live": "https://bondly-eosin.vercel.app/",
-  "category": "Next.js"
-},
-  {
-  "name": "Simple BookStore – Premium Literature Exploration UI",
-  "description": "Developed a professional, minimal web application for book enthusiasts to discover, track, and manage their personal reading collections with a focus on high-end typography and clean UI.",
-  "details": "This project showcases advanced React Router implementations, persistent data management via LocalStorage, and a refined design system built on Tailwind CSS and DaisyUI.",
-  "keyContributions": [
-    "Architected dynamic routing for seamless navigation between catalog, details, and list views",
-    "Implemented persistent data logic for 'Read List' and 'Wishlist' across browser sessions",
-    "Developed an editorial-style Book Details page with a focus on content hierarchy and top-aligned imagery",
-    "Designed a professional, cart-style list interface for efficient collection management",
-    "Integrated Lucide icons and Google Fonts (Outfit) for a cohesive, modern aesthetic"
-  ],
-  "tech": ["Practicing ReactJS", "React Router", "Tailwind CSS", "DaisyUI", "Lucide Icons"],
-  "github": "https://github.com/JowelislamHabib/Simple-React-Route-BookStore",
-  "live": "https://jowel.bintofajjal.com/project-reactjs/bookstore/",
-  "category": "ReactJS"
-},
 {
-    "name": "DigiTools Platform – React E-commerce UI with Dynamic Cart",
-    "description": "Built a modern web application for exploring and purchasing digital workflow tools, focusing on clean UI design and interactive user experience.",
-    "details": "This project highlights my understanding of state management, component-based architecture, and building real-world interactive interfaces using modern frontend tools.",
-    "keyContributions": [
-      "Developed a dynamic shopping cart with real-time add/remove functionality",
-      "Built interactive product and pricing cards with responsive layouts",
-      "Implemented toast notifications for better user feedback",
-      "Designed a modern, mobile-friendly UI using utility-first styling"
-    ],
-    "tech": ["Practicing ReactJS", "JavaScript", "Tailwind CSS"],
-    "github": "https://github.com/JowelislamHabib/DigiTools-Platform",
-    "live": "https://jowel.bintofajjal.com/project-reactjs/digitools/",
-    "category": "ReactJS"
-  },
-  {
-    "name": "Get Advice – React App using Suspense & use() Hook",
-    "description": "Built a React application that demonstrates modern asynchronous data handling using React Suspense and the experimental use() hook.",
-    "details": "This project highlights my understanding of modern React patterns, async rendering, and API integration. It uses the experimental use() hook for cleaner promise-based data flow and Suspense for smooth loading states.",
-    "keyContributions": [
-      "Integrated external API to fetch dynamic content",
-      "Implemented Suspense for smooth loading states",
-      "Used promise-based data flow with use() for cleaner logic",
-      "Designed a simple and responsive UI"
-    ],
-    "tech": ["ReactJS", "Suspense", "Async API", "CSS", "JavaScript"],
-    "github": "https://github.com/JowelislamHabib/Get-Advice",
-    "live": "https://jowel.bintofajjal.com/project-reactjs/get-advice/",
-    "category": "ReactJS"
-  },
-  {
-    "name": "CoinTax - The Leading UK Cryptocurrency Accounting Firm",
-    "description": "Developed and implemented the WordPress version of the CoinTax website, a UK-based cryptocurrency accounting firm specializing in tax services for crypto investors and businesses.",
-    "details": "Responsibilities included converting the original design into a fully functional WordPress website, implementing responsive layouts, integrating dynamic components, and deploying the site to a live production environment.",
-    "keyContributions": [
-      "Converted the website design into a fully responsive WordPress theme",
-      "Implemented front-end and back-end functionality",
-      "Integrated custom layouts and dynamic content sections",
-      "Optimized the website for performance and usability",
-      "Deployed and configured the website on the live server",
-      "Ensured cross-browser compatibility and responsive design"
-    ],
-    "tech": ["WordPress", "CSS", "JavaScript", "Elementor", "Figma"],
-    "github": null,
-    "live": "https://www.cointax.co.uk/",
-    "category": "WordPress"
-  },
-  {
-    "name": "ComAllies - Corporate Communications And Public Affairs Advice And Support.",
-    "description": "Designed and developed the official website for ComAllies, a corporate communications and public affairs consultancy.",
-    "details": "The project involved creating a modern and responsive website using WordPress CMS, translating design concepts into a functional website, and ensuring optimal performance across devices and browsers.",
-    "keyContributions": [
-      "Designed the website layout and user interface",
-      "Developed the site using WordPress CMS",
-      "Implemented responsive design for mobile, tablet, and desktop",
-      "Structured pages for services, company information, and content presentation",
-      "Optimized performance and usability",
-      "Deployed the website to the live production server"
-    ],
-    "tech": ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
-    "github": null,
-    "live": "https://comallies.com/",
-    "category": "WordPress"
-  },
-  {
-    "name": "Believers Vision Publication - Islamic Books & Publications Website",
-    "description": "Designed and developed the official website for Believers Vision Publication, an online platform dedicated to Islamic books and publications.",
-    "details": "The project involved creating a modern and user-friendly website using WordPress CMS, implementing structured layouts for books and content, and ensuring the website works smoothly across all devices.",
-    "keyContributions": [
-      "Designed the website layout and user interface",
-      "Developed the website using WordPress CMS",
-      "Implemented responsive design for mobile, tablet, and desktop",
-      "Structured pages for books, publications, and organizational content",
-      "Optimized performance and usability",
-      "Deployed and configured the website on the live server"
-    ],
-    "tech": ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
-    "github": null,
-    "live": "https://believersvision.com/",
-    "category": "WordPress"
-  },
-  {
-    "name": "Salafi Forum - Online Community Platform",
-    "description": "Designed and developed the Salafi Forum online community platform using the XenForo forum CMS.",
-    "details": "The project involved building the complete community structure, implementing custom design and layouts, and configuring advanced role-based permission systems to manage different user groups and moderation levels.",
-    "keyContributions": [
-      "Designed and developed the full community platform",
-      "Implemented the forum using XenForo CMS",
-      "Configured extensive role-based permission management",
-      "Structured categories, forums, and community sections",
-      "Customized themes and layouts for the forum interface",
-      "Managed installation, configuration, and deployment of the platform",
-      "Ensured responsive design and optimized user experience"
-    ],
-    "tech": ["XenForo", "PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-    "github": null,
-    "live": "https://salafiforum.com/",
-    "category": "XenForo"
-  },
-  {
-    "name": "Abdul Hamid Al Faizi Al Madani - Author Website & Digital Library",
-    "description": "Designed, developed, and deployed the official website for a well-known Islamic author, providing a platform for readers to access books, reviews, and blog content.",
-    "details": "The project involved creating a clean and user-friendly website that allows visitors to download books, submit reviews, and read blog posts. The platform was built with a focus on performance, accessibility, and seamless user experience across all devices.",
-    "keyContributions": [
-      "Designed the website layout and user interface",
-      "Developed the website with dynamic content and structured pages",
-      "Implemented book listing, download, and review functionality",
-      "Created a blog system for publishing articles and updates",
-      "Ensured responsive design for mobile, tablet, and desktop",
-      "Optimized performance and usability",
-      "Deployed and configured the website on a live production server"
-    ],
-    "tech": ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
-    "github": null,
-    "live": "https://abdulhamidalfaizialmadani.com/",
-    "category": "WordPress"
-  },
-  {
-    "name": "Cartecadeau PF - Website Recovery, Malware Cleanup & Secure Migration",
-    "description": "Performed full recovery, malware cleanup, and secure migration of a compromised WordPress website, restoring it to a stable production-ready state.",
-    "details": "The project involved identifying and removing malware from an infected WordPress installation, verifying file integrity, and migrating the website to a clean Cloudways VPS environment. Additional work included server configuration, SSL setup, and resolving DNS propagation issues to ensure consistent global accessibility.",
-    "keyContributions": [
-      "Performed complete malware cleanup and file integrity verification",
-      "Migrated the website to a fresh Cloudways VPS environment",
-      "Configured server and applied basic security hardening",
-      "Installed SSL certificate and enforced HTTPS across the site",
-      "Verified wp-admin access and ensured full site functionality",
-      "Resolved DNS propagation inconsistencies during testing",
-      "Ensured stable performance and global accessibility post-deployment"
-    ],
-    "tech": ["WordPress", "PHP", "Cloudways", "VPS", "DNS", "SSL"],
-    "github": null,
-    "live": "https://cartecadeaupf.com/",
-    "category": "WordPress",
-    "archived": false
-  },
-  {
-    "name": "Telegage - Business Website",
-    "description": "Designed and developed the Telegage website using WordPress and Elementor, creating a modern and visually engaging online presence.",
-    "details": "The project involved building a fully responsive website with Elementor, translating design ideas into a functional layout, and ensuring smooth performance across all devices. Focus was placed on clean UI/UX, structured content presentation, and ease of management through WordPress CMS.",
-    "keyContributions": [
-      "Designed the website layout and user interface using Elementor",
-      "Developed the website using WordPress CMS",
-      "Implemented responsive design for mobile, tablet, and desktop",
-      "Structured pages for services, content, and business information",
-      "Optimized performance and usability",
-      "Deployed and configured the website on a live production server"
-    ],
-    "tech": ["WordPress", "Elementor", "PHP", "HTML", "CSS", "JavaScript"],
-    "github": null,
-    "live": "https://telegage.io/",
-    "category": "WordPress",
-    "archived": false
-  },
-  {
-    "name": "Davita Clinics - Healthcare Services Website",
-    "description": "Designed, developed, and deployed a healthcare services website for Davita Clinics, providing information about clinic locations, patient care, and medical services.",
-    "details": "The project involved building a fully responsive WordPress website that allowed users to explore clinic availability across different locations in Saudi Arabia, view healthcare statistics such as patient care capacity, and access information about doctors and elderly care services. The website is now offline due to internal client decisions.",
-    "keyContributions": [
-      "Designed the website layout and user interface",
-      "Developed the website using WordPress CMS",
-      "Structured pages for clinic locations, services, and healthcare information",
-      "Integrated dynamic content for patient statistics and medical staff details",
-      "Implemented responsive design for mobile, tablet, and desktop",
-      "Optimized performance and usability",
-      "Deployed and configured the website on a live production server"
-    ],
-    "tech": ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
-    "github": null,
-    "live": null,
-    "category": "WordPress",
-    "archived": true,
-    "archivedNote": "The client discontinued the website due to internal operational changes.",
-    "waybackUrl": "https://web.archive.org/web/20250415203724/https://davitaclinics.com/",
-    "screenshots": null
-  }
-]
+  "categories": ["All", "NextJS", "ReactJS", "WordPress", "XenForo"],
+  "projects": [
+    {
+      "name": "Bondly — Keep Your Network Alive",
+      "label": "Practice Project",
+      "description": "Developed a modern relationship management web application that helps users build, organize, and maintain meaningful personal and professional connections through a clean and intuitive interface.",
+      "details": "This project demonstrates scalable frontend architecture using Next.js and React, efficient state management with Context API, and interactive data visualization using Recharts.",
+      "keyContributions": [
+        "Designed and developed a responsive UI with Tailwind CSS and daisyUI",
+        "Implemented Context API for global state management",
+        "Built dynamic routing using Next.js App Router",
+        "Integrated Recharts for analytics visualization",
+        "Added toast notifications for real-time feedback",
+        "Followed scalable architecture patterns"
+      ],
+      "tech": ["Next.js", "React.js", "Tailwind CSS", "daisyUI", "Recharts", "React Toastify", "Node.js"],
+      "github": "https://github.com/JowelislamHabib/Bondly",
+      "live": "https://bondly-eosin.vercel.app/",
+      "category": "NextJS",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
+    {
+      "name": "Simple BookStore – Premium Literature Exploration UI",
+      "label": "Practice Project",
+      "description": "A minimal web application for managing reading collections with clean UI and structured UX.",
+      "details": "Showcases React Router, LocalStorage persistence, and a refined UI system using Tailwind and DaisyUI.",
+      "keyContributions": [
+        "Implemented dynamic routing",
+        "Built persistent read/wishlist system",
+        "Designed structured Book Details page",
+        "Created collection management UI",
+        "Used Lucide icons and Google Fonts"
+      ],
+      "tech": ["ReactJS", "React Router", "Tailwind CSS", "DaisyUI", "Lucide Icons"],
+      "github": "https://github.com/JowelislamHabib/Simple-React-Route-BookStore",
+      "live": "https://jowel.bintofajjal.com/project-reactjs/bookstore/",
+      "category": "ReactJS",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
+    {
+      "name": "DigiTools Platform – React E-commerce UI with Dynamic Cart",
+      "label": "Practice Project",
+      "description": "A digital tools marketplace UI with cart functionality and interactive components.",
+      "details": "Focuses on state management and reusable component architecture.",
+      "keyContributions": [
+        "Built dynamic cart system",
+        "Created responsive product cards",
+        "Implemented toast notifications",
+        "Designed mobile-first UI"
+      ],
+      "tech": ["ReactJS", "JavaScript", "Tailwind CSS"],
+      "github": "https://github.com/JowelislamHabib/DigiTools-Platform",
+      "live": "https://jowel.bintofajjal.com/project-reactjs/digitools/",
+      "category": "ReactJS",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
+    {
+      "name": "Get Advice – React Suspense App",
+      "label": "Practice Project",
+      "description": "A React app demonstrating modern async rendering using Suspense and use() hook.",
+      "details": "Focuses on modern React data-fetching patterns and API handling.",
+      "keyContributions": [
+        "Integrated external API",
+        "Used Suspense for loading states",
+        "Implemented use() hook",
+        "Built clean UI"
+      ],
+      "tech": ["ReactJS", "Suspense", "API", "CSS", "JavaScript"],
+      "github": "https://github.com/JowelislamHabib/Get-Advice",
+      "live": "https://jowel.bintofajjal.com/project-reactjs/get-advice/",
+      "category": "ReactJS",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
+
+    {
+      "name": "CoinTax - UK Crypto Accounting Firm Website",
+      "label": "Client Project",
+      "description": "WordPress website for a UK-based crypto accounting firm.",
+      "details": "Converted design into a production-ready WordPress site.",
+      "keyContributions": [
+        "Built custom WordPress theme",
+        "Implemented responsive layout",
+        "Integrated dynamic sections",
+        "Optimized performance",
+        "Deployed to production"
+      ],
+      "tech": ["WordPress", "CSS", "JavaScript", "Elementor", "Figma"],
+      "github": null,
+      "live": "https://www.cointax.co.uk/",
+      "category": "WordPress",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
+
+    {
+      "name": "ComAllies - Corporate Communications Website",
+      "label": "Client Project",
+      "description": "Corporate website for a communications consultancy.",
+      "details": "Built with WordPress focusing on structure and performance.",
+      "keyContributions": [
+        "UI design implementation",
+        "WordPress development",
+        "Responsive layout",
+        "Performance optimization"
+      ],
+      "tech": ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
+      "github": null,
+      "live": "https://comallies.com/",
+      "category": "WordPress",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
+
+    {
+      "name": "Believers Vision Publication Website",
+      "label": "Client Project",
+      "description": "Islamic books and publications platform.",
+      "details": "Structured WordPress system for books and content.",
+      "keyContributions": [
+        "Designed UI",
+        "Built WordPress site",
+        "Structured book system",
+        "Optimized performance"
+      ],
+      "tech": ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
+      "github": null,
+      "live": "https://believersvision.com/",
+      "category": "WordPress",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
+
+    {
+      "name": "Salafi Forum - Online Community Platform",
+      "label": "Client Project",
+      "description": "Community forum built with XenForo CMS.",
+      "details": "Advanced forum system with roles and permissions.",
+      "keyContributions": [
+        "Forum structure setup",
+        "Role-based permissions",
+        "Theme customization",
+        "Deployment and configuration"
+      ],
+      "tech": ["XenForo", "PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      "github": null,
+      "live": "https://salafiforum.com/",
+      "category": "XenForo",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
+    {
+      "name": "Abdul Hamid Al Faizi Al Madani - Author Website & Digital Library",
+      "label": "Client Project",
+      "description": "Official website for an Islamic author providing books, blog posts, and reader engagement features.",
+      "details": "Created a clean, structured WordPress platform with book downloads, reviews, and blog functionality focused on performance and accessibility.",
+      "keyContributions": [
+        "Designed UI/UX layout for author branding",
+        "Built WordPress-based dynamic website",
+        "Implemented book listing and download system",
+        "Created blog and article system",
+        "Optimized responsiveness and performance",
+        "Deployed to production server"
+      ],
+      "tech": ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
+      "github": null,
+      "live": "https://abdulhamidalfaizialmadani.com/",
+      "category": "WordPress",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
+    {
+      "name": "Cartecadeau PF - Malware Cleanup & Migration",
+      "label": "Client Project",
+      "description": "Recovered and secured compromised WordPress website.",
+      "details": "Handled malware removal and VPS migration.",
+      "keyContributions": [
+        "Malware cleanup",
+        "Secure VPS migration",
+        "SSL setup",
+        "DNS fixing"
+      ],
+      "tech": ["WordPress", "Cloudways", "VPS", "DNS", "SSL"],
+      "github": null,
+      "live": "https://cartecadeaupf.com/",
+      "category": "WordPress",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
+
+    {
+      "name": "Telegage - Business Website",
+      "label": "Client Project",
+      "description": "Business website built with Elementor.",
+      "details": "Fully responsive WordPress site with clean UI.",
+      "keyContributions": [
+        "Elementor design",
+        "WordPress development",
+        "Responsive UI",
+        "Performance optimization"
+      ],
+      "tech": ["WordPress", "Elementor", "PHP", "HTML", "CSS", "JavaScript"],
+      "github": null,
+      "live": "https://telegage.io/",
+      "category": "WordPress",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
+
+    {
+      "name": "Davita Clinics - Healthcare Services Website",
+      "label": "Client Project",
+      "description": "Healthcare services website for clinics and patient data.",
+      "details": "Now archived due to client closure.",
+      "keyContributions": [
+        "Website design and development",
+        "Healthcare data structuring",
+        "Responsive UI implementation"
+      ],
+      "tech": ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
+      "github": null,
+      "live": null,
+      "category": "WordPress",
+      "archived": true,
+      "archivedNote": "The client discontinued the website due to internal operational changes.",
+      "waybackUrl": "https://web.archive.org/web/20250415203724/https://davitaclinics.com/",
+      "screenshots": []
+    }
+  ]
+}
