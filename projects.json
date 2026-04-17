@@ -1,5 +1,22 @@
 [
   {
+  "name": "Bondly — Keep Your Network Alive",
+  "description": "Developed a modern relationship management web application that helps users build, organize, and maintain meaningful personal and professional connections through a clean and intuitive interface.",
+  "details": "This project demonstrates scalable frontend architecture using Next.js and React, efficient state management with Context API, and interactive data visualization using Recharts. The application focuses on performance, usability, and a smooth user experience.",
+  "keyContributions": [
+    "Designed and developed a responsive UI with Tailwind CSS and daisyUI for a clean and modern experience",
+    "Implemented Context API for managing global state such as friends and timeline interactions",
+    "Built dynamic routing using Next.js App Router for user profiles, stats, and timeline pages",
+    "Integrated data visualization using Recharts to represent user interaction insights",
+    "Added toast notifications for real-time user feedback using React Toastify",
+    "Structured the project for scalability and maintainability following modern best practices"
+  ],
+  "tech": ["Next.js", "React.js", "Tailwind CSS", "daisyUI", "Recharts", "React Toastify", "Node.js"],
+  "github": "https://github.com/JowelislamHabib/Bondly",
+  "live": "https://bondly-eosin.vercel.app/",
+  "category": "Next.js"
+},
+  {
   "name": "Simple BookStore – Premium Literature Exploration UI",
   "description": "Developed a professional, minimal web application for book enthusiasts to discover, track, and manage their personal reading collections with a focus on high-end typography and clean UI.",
   "details": "This project showcases advanced React Router implementations, persistent data management via LocalStorage, and a refined design system built on Tailwind CSS and DaisyUI.",
