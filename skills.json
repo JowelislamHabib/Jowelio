@@ -4,21 +4,21 @@
   "certificateViewTitle": "Certificate View",
   "skills": [
     "JavaScript",
-    "ReactJS",
+    "React.js",
     "Next.js",
-    "MongoDB",
     "Node.js",
     "Express.js",
+    "MongoDB",
     "WordPress",
     "XenForo"
   ],
   "skillLinks": {
-    "JavaScript": "https://en.wikipedia.org/wiki/JavaScript",
-    "ReactJS": "https://react.dev/",
+    "JavaScript": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "React.js": "https://react.dev/",
     "Next.js": "https://nextjs.org/",
-    "MongoDB": "https://www.mongodb.com/",
     "Node.js": "https://nodejs.org/",
     "Express.js": "https://expressjs.com/",
+    "MongoDB": "https://www.mongodb.com/",
     "WordPress": "https://wordpress.org/",
     "XenForo": "https://xenforo.com/"
   },
