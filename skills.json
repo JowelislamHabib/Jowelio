@@ -3,24 +3,24 @@
   "certificationsTitle": "Certifications",
   "certificateViewTitle": "Certificate View",
   "skills": [
+    "JavaScript",
     "ReactJS",
     "Next.js",
     "MongoDB",
     "Node.js",
     "Express.js",
     "WordPress",
-    "XenForo",
-    "JavaScript"
+    "XenForo"
   ],
   "skillLinks": {
+    "JavaScript": "https://en.wikipedia.org/wiki/JavaScript",
     "ReactJS": "https://react.dev/",
     "Next.js": "https://nextjs.org/",
     "MongoDB": "https://www.mongodb.com/",
     "Node.js": "https://nodejs.org/",
     "Express.js": "https://expressjs.com/",
     "WordPress": "https://wordpress.org/",
-    "XenForo": "https://xenforo.com/",
-    "JavaScript": "https://en.wikipedia.org/wiki/JavaScript"
+    "XenForo": "https://xenforo.com/"
   },
   "certificates": [
     {
