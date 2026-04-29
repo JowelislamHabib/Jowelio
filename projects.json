@@ -3,7 +3,7 @@
   "projects": [
     {
       "name": "Bondly — Keep Your Network Alive",
-      "thumbnail": "/Jowel-Meta.jpg",
+      "thumbnail": "/project-images/bondly-project.png",
       "label": "Practice Project",
       "description": "Developed a modern relationship management web application that helps users build, organize, and maintain meaningful personal and professional connections through a clean and intuitive interface.",
       "details": "This project demonstrates scalable frontend architecture using Next.js and React, efficient state management with Context API, and interactive data visualization using Recharts. The application focuses on performance, usability, and a smooth user experience.",
@@ -15,11 +15,21 @@
         "Added toast notifications for real-time user feedback using React Toastify",
         "Structured the project for scalability and maintainability following modern best practices"
       ],
-      "challenges": ["Managing timeline, quality, and compatibility constraints."],
+      "challenges": [
+        "Managing timeline, quality, and compatibility constraints."
+      ],
       "futurePlans": [
         "Add richer automation and continue iterative UI/UX refinement."
       ],
-      "tech": ["Next.js", "React.js", "Tailwind CSS", "daisyUI", "Recharts", "React Toastify", "Node.js"],
+      "tech": [
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "daisyUI",
+        "Recharts",
+        "React Toastify",
+        "Node.js"
+      ],
       "github": "https://github.com/JowelislamHabib/Bondly",
       "live": "https://bondly-eosin.vercel.app/",
       "category": "NextJS",
@@ -30,7 +40,7 @@
     },
     {
       "name": "Simple BookStore – Premium Literature Exploration UI",
-      "thumbnail": "/Jowel-Meta.jpg",
+      "thumbnail": "/project-images/book-store-project.png",
       "label": "Practice Project",
       "description": "Developed a professional, minimal web application for book enthusiasts to discover, track, and manage their personal reading collections with a focus on high-end typography and clean UI.",
       "details": "This project showcases advanced React Router implementations, persistent data management via LocalStorage, and a refined design system built on Tailwind CSS and DaisyUI.",
@@ -41,11 +51,19 @@
         "Designed a professional, cart-style list interface for efficient collection management",
         "Integrated Lucide icons and Google Fonts (Outfit) for a cohesive, modern aesthetic"
       ],
-      "challenges": ["Managing timeline, quality, and compatibility constraints."],
+      "challenges": [
+        "Managing timeline, quality, and compatibility constraints."
+      ],
       "futurePlans": [
         "Add richer automation and continue iterative UI/UX refinement."
       ],
-      "tech": ["ReactJS", "React Router", "Tailwind CSS", "DaisyUI", "Lucide Icons"],
+      "tech": [
+        "ReactJS",
+        "React Router",
+        "Tailwind CSS",
+        "DaisyUI",
+        "Lucide Icons"
+      ],
       "github": "https://github.com/JowelislamHabib/Simple-React-Route-BookStore",
       "live": "https://jowel.bintofajjal.com/project-reactjs/bookstore/",
       "category": "ReactJS",
@@ -56,7 +74,7 @@
     },
     {
       "name": "DigiTools Platform – React E-commerce UI with Dynamic Cart",
-      "thumbnail": "https://i.ibb.co.com/5gt8NwNG/digitools-project.png",
+      "thumbnail": "/project-images/digitools-project.png",
       "label": "Practice Project",
       "description": "Built a modern web application for exploring and purchasing digital workflow tools, focusing on clean UI design and interactive user experience.",
       "details": "This project highlights my understanding of state management, component-based architecture, and building real-world interactive interfaces using modern frontend tools.",
@@ -66,7 +84,9 @@
         "Implemented toast notifications for better user feedback",
         "Designed a modern, mobile-friendly UI using utility-first styling"
       ],
-      "challenges": ["Managing timeline, quality, and compatibility constraints."],
+      "challenges": [
+        "Managing timeline, quality, and compatibility constraints."
+      ],
       "futurePlans": [
         "Add richer automation and continue iterative UI/UX refinement."
       ],
@@ -81,7 +101,7 @@
     },
     {
       "name": "Get Advice – React App using Suspense & use() Hook",
-      "thumbnail": "https://i.ibb.co.com/sdrLNHYH/screenshot-1-5x-postspark-2026-04-29-15-42-26.png",
+      "thumbnail": "/project-images/get-advice-project.png",
       "label": "Practice Project",
       "description": "Built a React application that demonstrates modern asynchronous data handling using React Suspense and the experimental use() hook.",
       "details": "This project highlights my understanding of modern React patterns, async rendering, and API integration. It uses the experimental use() hook for cleaner promise-based data flow and Suspense for smooth loading states.",
@@ -91,7 +111,9 @@
         "Used promise-based data flow with use() for cleaner logic",
         "Designed a simple and responsive UI"
       ],
-      "challenges": ["Managing timeline, quality, and compatibility constraints."],
+      "challenges": [
+        "Managing timeline, quality, and compatibility constraints."
+      ],
       "futurePlans": [
         "Add richer automation and continue iterative UI/UX refinement."
       ],
@@ -106,7 +128,7 @@
     },
     {
       "name": "CoinTax - The Leading UK Cryptocurrency Accounting Firm",
-      "thumbnail": "/Jowel-Meta.jpg",
+      "thumbnail": "/project-images/cointax-project.png",
       "label": "Client Project",
       "description": "Developed and implemented the WordPress version of the CoinTax website, a UK-based cryptocurrency accounting firm specializing in tax services for crypto investors and businesses.",
       "details": "Responsibilities included converting the original design into a fully functional WordPress website, implementing responsive layouts, integrating dynamic components, and deploying the site to a live production environment.",
@@ -118,7 +140,9 @@
         "Deployed and configured the website on the live server",
         "Ensured cross-browser compatibility and responsive design"
       ],
-      "challenges": ["Managing timeline, quality, and compatibility constraints."],
+      "challenges": [
+        "Managing timeline, quality, and compatibility constraints."
+      ],
       "futurePlans": [
         "Add richer automation and continue iterative UI/UX refinement."
       ],
@@ -133,7 +157,7 @@
     },
     {
       "name": "ComAllies - Corporate Communications And Public Affairs Advice And Support.",
-      "thumbnail": "/Jowel-Meta.jpg",
+      "thumbnail": "/project-images/comallies-project.png",
       "label": "Client Project",
       "description": "Designed and developed the official website for ComAllies, a corporate communications and public affairs consultancy.",
       "details": "The project involved creating a modern and responsive website using WordPress CMS, translating design concepts into a functional website, and ensuring optimal performance across devices and browsers.",
@@ -145,7 +169,9 @@
         "Optimized performance and usability",
         "Deployed the website to the live production server"
       ],
-      "challenges": ["Managing timeline, quality, and compatibility constraints."],
+      "challenges": [
+        "Managing timeline, quality, and compatibility constraints."
+      ],
       "futurePlans": [
         "Add richer automation and continue iterative UI/UX refinement."
       ],
@@ -160,7 +186,7 @@
     },
     {
       "name": "Believers Vision Publication - Islamic Books & Publications Website",
-      "thumbnail": "/Jowel-Meta.jpg",
+      "thumbnail": "/project-images/believers-project.png",
       "label": "Client Project",
       "description": "Designed and developed the official website for Believers Vision Publication, an online platform dedicated to Islamic books and publications.",
       "details": "The project involved creating a modern and user-friendly website using WordPress CMS, implementing structured layouts for books and content, and ensuring the website works smoothly across all devices.",
@@ -172,7 +198,9 @@
         "Optimized performance and usability",
         "Deployed and configured the website on the live server"
       ],
-      "challenges": ["Managing timeline, quality, and compatibility constraints."],
+      "challenges": [
+        "Managing timeline, quality, and compatibility constraints."
+      ],
       "futurePlans": [
         "Add richer automation and continue iterative UI/UX refinement."
       ],
@@ -187,7 +215,7 @@
     },
     {
       "name": "Salafi Forum - Online Community Platform",
-      "thumbnail": "/Jowel-Meta.jpg",
+      "thumbnail": "/project-images/salafiforum-project.png",
       "label": "Client Project",
       "description": "Designed and developed the Salafi Forum online community platform using the XenForo forum CMS.",
       "details": "The project involved building the complete community structure, implementing custom design and layouts, and configuring advanced role-based permission systems to manage different user groups and moderation levels.",
@@ -200,7 +228,9 @@
         "Managed installation, configuration, and deployment of the platform",
         "Ensured responsive design and optimized user experience"
       ],
-      "challenges": ["Managing timeline, quality, and compatibility constraints."],
+      "challenges": [
+        "Managing timeline, quality, and compatibility constraints."
+      ],
       "futurePlans": [
         "Add richer automation and continue iterative UI/UX refinement."
       ],
@@ -215,7 +245,7 @@
     },
     {
       "name": "Abdul Hamid Al Faizi Al Madani - Author Website & Digital Library",
-      "thumbnail": "/Jowel-Meta.jpg",
+      "thumbnail": "/project-images/abdulhamid-project.png",
       "label": "Client Project",
       "description": "Designed, developed, and deployed the official website for a well-known Islamic author, providing a platform for readers to access books, reviews, and blog content.",
       "details": "The project involved creating a clean and user-friendly website that allows visitors to download books, submit reviews, and read blog posts. The platform was built with a focus on performance, accessibility, and seamless user experience across all devices.",
@@ -228,7 +258,9 @@
         "Optimized performance and usability",
         "Deployed and configured the website on a live production server"
       ],
-      "challenges": ["Managing timeline, quality, and compatibility constraints."],
+      "challenges": [
+        "Managing timeline, quality, and compatibility constraints."
+      ],
       "futurePlans": [
         "Add richer automation and continue iterative UI/UX refinement."
       ],
@@ -243,7 +275,7 @@
     },
     {
       "name": "Cartecadeau PF - Website Recovery, Malware Cleanup & Secure Migration",
-      "thumbnail": "/Jowel-Meta.jpg",
+      "thumbnail": "/project-images/cartecadeaupf-project.png",
       "label": "Client Project",
       "description": "Performed full recovery, malware cleanup, and secure migration of a compromised WordPress website, restoring it to a stable production-ready state.",
       "details": "The project involved identifying and removing malware from an infected WordPress installation, verifying file integrity, and migrating the website to a clean Cloudways VPS environment. Additional work included server configuration, SSL setup, and resolving DNS propagation issues to ensure consistent global accessibility.",
@@ -256,7 +288,9 @@
         "Resolved DNS propagation inconsistencies during testing",
         "Ensured stable performance and global accessibility post-deployment"
       ],
-      "challenges": ["Managing timeline, quality, and compatibility constraints."],
+      "challenges": [
+        "Managing timeline, quality, and compatibility constraints."
+      ],
       "futurePlans": [
         "Add richer automation and continue iterative UI/UX refinement."
       ],
@@ -271,7 +305,7 @@
     },
     {
       "name": "Telegage - Business Website",
-      "thumbnail": "/Jowel-Meta.jpg",
+      "thumbnail": "/project-images/telegage-project.png",
       "label": "Client Project",
       "description": "Designed and developed the Telegage website using WordPress and Elementor, creating a modern and visually engaging online presence.",
       "details": "The project involved building a fully responsive website with Elementor, translating design ideas into a functional layout, and ensuring smooth performance across all devices. Focus was placed on clean UI/UX, structured content presentation, and ease of management through WordPress CMS.",
@@ -283,7 +317,9 @@
         "Optimized performance and usability",
         "Deployed and configured the website on a live production server"
       ],
-      "challenges": ["Managing timeline, quality, and compatibility constraints."],
+      "challenges": [
+        "Managing timeline, quality, and compatibility constraints."
+      ],
       "futurePlans": [
         "Add richer automation and continue iterative UI/UX refinement."
       ],
@@ -298,7 +334,7 @@
     },
     {
       "name": "Davita Clinics - Healthcare Services Website",
-      "thumbnail": "/Jowel-Meta.jpg",
+      "thumbnail": "/project-images/davita-project.png",
       "label": "Client Project",
       "description": "Designed, developed, and deployed a healthcare services website for Davita Clinics, providing information about clinic locations, patient care, and medical services.",
       "details": "The project involved building a fully responsive WordPress website that allowed users to explore clinic availability across different locations in Saudi Arabia, view healthcare statistics such as patient care capacity, and access information about doctors and elderly care services. The website is now offline due to internal client decisions.",
@@ -311,7 +347,9 @@
         "Optimized performance and usability",
         "Deployed and configured the website on a live production server"
       ],
-      "challenges": ["Managing timeline, quality, and compatibility constraints."],
+      "challenges": [
+        "Managing timeline, quality, and compatibility constraints."
+      ],
       "futurePlans": [
         "Add richer automation and continue iterative UI/UX refinement."
       ],
