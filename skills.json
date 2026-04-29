@@ -3,24 +3,53 @@
   "certificationsTitle": "Certifications",
   "certificateViewTitle": "Certificate View",
   "skills": [
-    "JavaScript",
-    "React.js",
-    "Next.js",
-    "Node.js",
-    "Express.js",
     "MongoDB",
+    "Express.js",
+    "React.js",
+    "Node.js",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Bootstrap",
+    "Next.js",
     "WordPress",
-    "XenForo"
+    "XenForo",
+    "Shopify"
   ],
   "skillLinks": {
-    "JavaScript": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "MongoDB": "https://www.mongodb.com/",
+    "Express.js": "https://expressjs.com/",
     "React.js": "https://react.dev/",
+    "ReactJS": "https://react.dev/",
     "Next.js": "https://nextjs.org/",
     "Node.js": "https://nodejs.org/",
-    "Express.js": "https://expressjs.com/",
-    "MongoDB": "https://www.mongodb.com/",
+    "JavaScript": "https://en.wikipedia.org/wiki/JavaScript",
+    "HTML5": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "CSS3": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "Tailwind CSS": "https://tailwindcss.com/",
+    "Bootstrap": "https://getbootstrap.com/",
     "WordPress": "https://wordpress.org/",
-    "XenForo": "https://xenforo.com/"
+    "XenForo": "https://xenforo.com/",
+    "Shopify": "https://www.shopify.com/"
+  },
+  "skillIcons": {
+    "MongoDB": "https://cdn.simpleicons.org/mongodb",
+    "Express.js": "https://cdn.simpleicons.org/express/111111",
+    "React.js": "https://cdn.simpleicons.org/react",
+    "Node.js": "https://cdn.simpleicons.org/nodedotjs",
+    "JavaScript": "https://cdn.simpleicons.org/javascript",
+    "HTML5": "https://cdn.simpleicons.org/html5",
+    "CSS3": "https://cdn.simpleicons.org/css",
+    "Tailwind CSS": "https://cdn.simpleicons.org/tailwindcss",
+    "Bootstrap": "https://cdn.simpleicons.org/bootstrap",
+    "Next.js": "https://cdn.simpleicons.org/nextdotjs/111111",
+    "WordPress": "https://cdn.simpleicons.org/wordpress",
+    "Shopify": "https://cdn.simpleicons.org/shopify"
+  },
+  "darkSkillIcons": {
+    "Next.js": "https://cdn.simpleicons.org/nextdotjs/ffffff",
+    "Express.js": "https://cdn.simpleicons.org/express/ffffff"
   },
   "certificates": [
     {
