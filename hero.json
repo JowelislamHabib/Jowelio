@@ -1,10 +1,13 @@
 {
-  "badgeText": "Actively Seeking Opportunities",
+  "badgeText": "FullStack Developer",
   "title": "Jowel Islam Habib",
   "description": "Passionate about building scalable web applications and seamless digital experiences using JavaScript, React.js, Node.js, Express.js, MongoDB, and WordPress. Seeking remote or on-site opportunities to contribute, grow, and create meaningful products.",
-  "primaryCta": { "label": "Contact Me", "href": "#contact" },
-    "secondaryCta": {
+  "primaryCta": {
+    "label": "Contact Me",
+    "href": "#contact"
+  },
+  "secondaryCta": {
     "label": "Resume",
-    "href": "https://docs.google.com/document/d/1iLFOnl4M23Np4ubHHpVbqkHYFVqo31C_"
+    "href": "https://docs.google.com/document/d/1iLFOnl4M23Np4ubHHpVbqkHYFVqo31C_/"
   }
 }
