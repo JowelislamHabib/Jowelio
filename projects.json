@@ -81,7 +81,7 @@
     },
     {
       "name": "Get Advice – React App using Suspense & use() Hook",
-      "thumbnail": "/Jowel-Meta.jpg",
+      "thumbnail": "https://i.ibb.co.com/sdrLNHYH/screenshot-1-5x-postspark-2026-04-29-15-42-26.png",
       "label": "Practice Project",
       "description": "Built a React application that demonstrates modern asynchronous data handling using React Suspense and the experimental use() hook.",
       "details": "This project highlights my understanding of modern React patterns, async rendering, and API integration. It uses the experimental use() hook for cleaner promise-based data flow and Suspense for smooth loading states.",
