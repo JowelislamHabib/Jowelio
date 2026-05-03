@@ -5,10 +5,10 @@
   "name": "Daily News — Modern News Platform Frontend",
   "thumbnail": "/project-images/dailynews-project.png",
   "label": "Practice Project",
-  "description": "Developed a modern full-stack news platform that delivers real-time, API-driven news content with a clean and responsive user interface, along with secure authentication and category-based browsing.",
+  "description": "Developed a modern news platform frontend that delivers real-time, API-driven news content with a clean and responsive user interface, along with secure authentication and category-based browsing.",
   "details": "This project demonstrates full-stack development using Next.js and MongoDB with better-auth integration for secure authentication. News content is dynamically fetched from external APIs, enabling real-time updates across categories. The application includes structured routing, reusable UI components, and a scalable architecture focused on performance, maintainability, and user experience.",
   "keyContributions": [
-    "Built a full-stack news application using Next.js App Router with dynamic routing for categories and article pages",
+    "Built a frontend news application using Next.js App Router with dynamic routing for categories and article pages",
     "Integrated external news APIs to fetch and display real-time, category-based content dynamically",
     "Implemented secure authentication system using better-auth with MongoDB integration",
     "Added Google OAuth login support for seamless user authentication",
