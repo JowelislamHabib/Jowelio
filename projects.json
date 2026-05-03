@@ -2,51 +2,97 @@
   "categories": ["All", "ReactJS", "NextJS", "WordPress", "XenForo"],
   "projects": [
     {
-  "name": "Daily News — Modern News Platform Frontend",
-  "thumbnail": "/project-images/dailynews-project.png",
-  "label": "Practice Project",
-  "description": "Developed a modern news platform frontend that delivers real-time, API-driven news content with a clean and responsive user interface, along with secure authentication and category-based browsing.",
-  "details": "This project demonstrates full-stack development using Next.js and MongoDB with better-auth integration for secure authentication. News content is dynamically fetched from external APIs, enabling real-time updates across categories. The application includes structured routing, reusable UI components, and a scalable architecture focused on performance, maintainability, and user experience.",
-  "keyContributions": [
-    "Built a frontend news application using Next.js App Router with dynamic routing for categories and article pages",
-    "Integrated external news APIs to fetch and display real-time, category-based content dynamically",
-    "Implemented secure authentication system using better-auth with MongoDB integration",
-    "Added Google OAuth login support for seamless user authentication",
-    "Designed reusable UI components for homepage sections, sidebars, and layout consistency",
-    "Developed responsive UI using Tailwind CSS and DaisyUI for optimal experience across devices",
-    "Managed authentication forms and validation using react-hook-form",
-    "Enhanced UI with utilities like date-fns for formatting and react-fast-marquee for dynamic content"
-  ],
-  "challenges": [
-    "Handling dynamic API data consistency across multiple news categories",
-    "Managing authentication flow integration with MongoDB and better-auth",
-    "Structuring reusable components for scalable layout design"
-  ],
-  "futurePlans": [
-    "Add personalized news recommendations based on user behavior",
-    "Implement bookmarking and reading history features",
-    "Improve caching strategy for faster API response handling"
-  ],
-  "tech": [
-    "Next.js",
-    "React.js",
-    "MongoDB",
-    "better-auth",
-    "Tailwind CSS",
-    "DaisyUI",
-    "date-fns",
-    "react-icons",
-    "react-hook-form",
-    "react-fast-marquee"
-  ],
-  "github": "https://github.com/JowelislamHabib/daily-news-nextjs",
-  "live": "https://daily-news-jet.vercel.app/",
-  "category": "NextJS",
-  "archived": false,
-  "archivedNote": "",
-  "waybackUrl": null,
-  "screenshots": []
-},
+      "name": "Solis — Premium Men's Seasonal Essentials E-Commerce Platform",
+      "thumbnail": "/project-images/solis-project.png",
+      "label": "Practice Project",
+      "description": "Developed a premium e-commerce platform focused on men's seasonal essentials, delivering a luxury shopping experience with a clean, modern, and responsive user interface along with secure authentication and product browsing features.",
+      "details": "This project demonstrates full-stack e-commerce development using Next.js 16 with MongoDB and better-auth integration. It includes secure authentication (Email/Password and Google OAuth), dynamic product catalog rendering, detailed product pages, and a highly responsive UI built with Tailwind CSS and HeroUI. The application emphasizes performance, scalability, and modern UX patterns suitable for real-world e-commerce systems.",
+      "keyContributions": [
+        "Built secure authentication system with Email/Password and Google OAuth using better-auth",
+        "Developed dynamic product catalog with responsive grid layout and reusable components",
+        "Implemented detailed product pages with ratings, stock status, and cart interaction flow",
+        "Designed premium UI/UX using Tailwind CSS v4 and HeroUI for a modern shopping experience",
+        "Integrated interactive product galleries using Swiper for smooth image navigation",
+        "Enhanced user engagement with animations using animate.css and react-fast-marquee",
+        "Structured scalable architecture suitable for production-level e-commerce applications"
+      ],
+      "challenges": [
+        "Designing a consistent premium UI across multiple product and authentication flows",
+        "Managing authentication state securely across client and server layers",
+        "Optimizing product UI performance with interactive components and animations"
+      ],
+      "futurePlans": [
+        "Add cart and checkout system with payment integration",
+        "Implement wishlist and product comparison features",
+        "Introduce personalized product recommendations"
+      ],
+      "tech": [
+        "Next.js",
+        "React.js",
+        "MongoDB",
+        "better-auth",
+        "Tailwind CSS",
+        "HeroUI",
+        "Swiper",
+        "animate.css",
+        "react-fast-marquee",
+        "react-hook-form",
+        "react-icons"
+      ],
+      "github": "https://github.com/JowelislamHabib/Solis-Premium-Mens-Seasonal-Essentials",
+      "live": "https://solis-summer.vercel.app/",
+      "category": "NextJS",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
+    {
+      "name": "Daily News — Modern News Platform Frontend",
+      "thumbnail": "/project-images/dailynews-project.png",
+      "label": "Practice Project",
+      "description": "Developed a modern news platform frontend that delivers real-time, API-driven news content with a clean and responsive user interface, along with secure authentication and category-based browsing.",
+      "details": "This project demonstrates full-stack development using Next.js and MongoDB with better-auth integration for secure authentication. News content is dynamically fetched from external APIs, enabling real-time updates across categories. The application includes structured routing, reusable UI components, and a scalable architecture focused on performance, maintainability, and user experience.",
+      "keyContributions": [
+        "Built a frontend news application using Next.js App Router with dynamic routing for categories and article pages",
+        "Integrated external news APIs to fetch and display real-time, category-based content dynamically",
+        "Implemented secure authentication system using better-auth with MongoDB integration",
+        "Added Google OAuth login support for seamless user authentication",
+        "Designed reusable UI components for homepage sections, sidebars, and layout consistency",
+        "Developed responsive UI using Tailwind CSS and DaisyUI for optimal experience across devices",
+        "Managed authentication forms and validation using react-hook-form",
+        "Enhanced UI with utilities like date-fns for formatting and react-fast-marquee for dynamic content"
+      ],
+      "challenges": [
+        "Handling dynamic API data consistency across multiple news categories",
+        "Managing authentication flow integration with MongoDB and better-auth",
+        "Structuring reusable components for scalable layout design"
+      ],
+      "futurePlans": [
+        "Add personalized news recommendations based on user behavior",
+        "Implement bookmarking and reading history features",
+        "Improve caching strategy for faster API response handling"
+      ],
+      "tech": [
+        "Next.js",
+        "React.js",
+        "MongoDB",
+        "better-auth",
+        "Tailwind CSS",
+        "DaisyUI",
+        "date-fns",
+        "react-icons",
+        "react-hook-form",
+        "react-fast-marquee"
+      ],
+      "github": "https://github.com/JowelislamHabib/daily-news-nextjs",
+      "live": "https://daily-news-jet.vercel.app/",
+      "category": "NextJS",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
     {
       "name": "Bondly — Keep Your Network Alive",
       "thumbnail": "/project-images/bondly-project.png",
