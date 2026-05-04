@@ -1,9 +1,10 @@
 {
   "heading": "About Me",
   "paragraphs": [
-  "Hi 👋, I'm a Junior MERN Stack Developer focused on building full-stack web applications using React, Next.js, Node.js, Express, and MongoDB.",
-  "I come from a strong real-world background in CMS development, server management, and working with live production systems.",
-  "That experience helps me go beyond just writing code. I understand deployment, performance, and how applications behave in real environments."
+  "Hi 👋, I’m a Developer who bridges the gap between AI efficiency and manual precision.",
+  "With a strong foundation in live production environments and performance optimization,", 
+  "I use AI tools to optimize complex logic and speed up UI development without sacrificing code quality.",
+  "I understand the how behind the code, ensuring every application is scalable and secure."
   ],
   "location": "Narayanganj, Bangladesh"
 }
