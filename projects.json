@@ -1,6 +1,48 @@
 {
   "categories": ["All", "NextJS", "ReactJS", "WordPress", "XenForo"],
   "projects": [
+        {
+      "slug": "odyssey-travel-destination-booking-platform",
+      "name": "Odyssey - Travel & Destination Booking Platform",
+      "thumbnail": null,
+      "label": "Practice Project",
+      "description": "Odyssey is a comprehensive web application designed to facilitate travel and destination booking. It provides a seamless platform for users to discover breathtaking destinations, manage their travel itineraries, and securely book their next adventure.",
+      "details": "The project features user authentication, a dashboard to track personal bookings, destination management, and an intuitive user interface to elevate the travel planning experience. It is built with Next.js 16 (App Router), React 19, Tailwind CSS v4, HeroUI, Better Auth with a MongoDB adapter, and MongoDB for persistent data.",
+      "keyContributions": [
+        "Integrated Better Auth with the Next.js App Router and MongoDB for secure sessions and profile management",
+        "Built flows to discover destinations, manage itineraries, and track personal bookings in a dashboard",
+        "Handled optimistic, responsive UI updates for profile edits, booking cancellations, and destination changes",
+        "Structured nested and dynamic routes (destination detail by id) and secured protected areas",
+        "Implemented a responsive layout using Tailwind CSS v4 with customized HeroUI components and React Icons"
+      ],
+      "challenges": [
+        "Seamlessly integrating the Next.js App Router with Better Auth and a robust MongoDB connection for sessions and profiles",
+        "Handling complex state mutations for bookings and destinations while keeping the UI fast and consistent",
+        "Delivering a premium responsive experience across devices with Tailwind v4 and HeroUI",
+        "Structuring routing and API boundaries for public destinations vs protected dashboards and profiles"
+      ],
+      "futurePlans": [
+        "Harden production booking and payment flows end to end",
+        "Explore PWA and analytics for engagement and retention"
+      ],
+      "tech": [
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "HeroUI",
+        "Better Auth",
+        "MongoDB",
+        "React Icons"
+      ],
+      "github": "https://github.com/JowelislamHabib/Odyssey-Travel-Destination-Booking-Platform",
+      "live": "https://odyssey-travels.vercel.app",
+      "category": "NextJS",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": [],
+      "showcaseVideoUrl": "https://youtu.be/LDgUCN0MDJw"
+    },
     {
       "name": "Solis — Premium Men's Seasonal Essentials E-Commerce Platform",
       "thumbnail": "/project-images/solis-project.png",
