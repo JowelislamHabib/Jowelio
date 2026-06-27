@@ -2,6 +2,60 @@
   "categories": ["All", "Full Stack", "NextJS", "ReactJS", "WordPress", "XenForo"],
   "projects": [
     {
+  "name": "GestorFitness",
+  "thumbnail": "/project-images/quiethub-project.png",
+  "label": "Practice Project",
+  "description": "Developed a full-stack room and workspace booking platform that allows users to browse available rooms, make reservations, manage bookings, and prevent overlapping schedules through backend validation logic.",
+  "details": "QuietHub is a real-world booking platform built with Next.js, Express.js, and MongoDB, focused on handling authentication workflows, booking validation systems, and scalable backend architecture. The project includes protected APIs, JWT-based authentication using Better Auth, room management, booking rescheduling, and time conflict prevention. Significant focus was placed on understanding backend structure, MongoDB aggregation pipelines, reusable middleware patterns, and handling complex date/time booking logic in practical scenarios.",
+  "keyContributions": [
+    "Built JWT-based authentication system using Better Auth with protected Express.js APIs",
+    "Developed complete room management functionality including creation, editing, and deletion",
+    "Implemented booking system with reservation, rescheduling, and cancellation support",
+    "Created backend validation logic to prevent overlapping room bookings and scheduling conflicts",
+    "Integrated MongoDB aggregation pipelines to combine room and booking-related data efficiently",
+    "Designed reusable middleware and utility-based backend structure for maintainability",
+    "Implemented room search and filtering functionality for improved user experience",
+    "Built responsive frontend UI using Tailwind CSS and HeroUI components"
+  ],
+  "challenges": [
+    "Understanding JWT verification flow between frontend and backend systems",
+    "Preventing overlapping bookings without creating false-positive conflicts",
+    "Handling different date and time formats consistently across booking operations",
+    "Managing MongoDB ObjectId values alongside custom string-based room IDs",
+    "Learning aggregation pipelines to include room details inside booking responses",
+    "Structuring backend logic into reusable middleware and utility functions instead of route-heavy code",
+    "Handling booking count updates correctly after cancellations and rescheduling",
+    "Debugging authentication issues and protected API access"
+  ],
+  "futurePlans": [
+    "Add payment integration for paid reservations",
+    "Implement real-time booking updates using Socket.IO",
+    "Add admin dashboard with moderation and analytics features",
+    "Improve API validation, error handling, and backend scalability",
+    "Add automated testing for booking workflows and APIs",
+    "Enhance calendar visualization and room availability UI"
+  ],
+  "tech": [
+    "Next.js",
+    "React.js",
+    "Express.js",
+    "MongoDB",
+    "Better Auth",
+    "JWT",
+    "JOSE",
+    "Tailwind CSS",
+    "HeroUI",
+    "Motion",
+    "React Icons"
+  ],
+  "github": "https://github.com/JowelislamHabib/QuietHub--Where-Deep-Focus-Begins",
+  "live": "https://quiethub.vercel.app/",
+  "category": "Full Stack",
+  "archived": false,
+  "archivedNote": "",
+  "waybackUrl": null,
+  "screenshots": []
+},{
   "name": "QuietHub — Room & Workspace Booking Platform",
   "thumbnail": "/project-images/quiethub-project.png",
   "label": "Practice Project",
