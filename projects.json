@@ -39,10 +39,7 @@
     "Framer Motion",
     "Recharts"
   ],
-  "github": {
-    "client": "https://github.com/JowelislamHabib/GestorFitness-client",
-    "server": "https://github.com/JowelislamHabib/GestorFitness-server"
-  },
+  "github": "https://github.com/JowelislamHabib/GestorFitness-client",
   "live": "https://gestorfitness.vercel.app/",
   "category": "Full Stack",
   "archived": false,
