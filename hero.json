@@ -9,5 +9,9 @@
   "secondaryCta": {
     "label": "Resume",
     "href": "https://jowel.bintofajjal.com/resume/Jowel_Islam_Habib.pdf"
+  },
+  "videoCta": {
+    "label": "Watch Intro",
+    "href": "https://www.youtube.com/embed/jP1iYbpLp0Q?autoplay=1"
   }
 }
