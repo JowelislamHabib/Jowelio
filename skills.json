@@ -7,20 +7,20 @@
     "Express.js",
     "React.js",
     "Node.js",
+    "Next.js",
+    "Better-auth",
+    "JWT",
+    "shadcn/ui",
+    "Framer Motion",
+    "Figma",
     "JavaScript",
     "HTML5",
     "CSS3",
     "Tailwind CSS",
     "Bootstrap",
-    "Next.js",
     "WordPress",
     "XenForo",
-    "Shopify",
-    "shadcn/ui",
-    "JWT",
-    "Framer Motion",
-    "Figma",
-    "Better-auth"
+    "Shopify"
   ],
   "skillLinks": {
     "MongoDB": "https://www.mongodb.com/",
@@ -37,10 +37,10 @@
     "XenForo": "https://xenforo.com/",
     "Shopify": "https://www.shopify.com/",
     "shadcn/ui": "https://ui.shadcn.com/",
-     "JWT": "https://jwt.io/",
     "Framer Motion": "https://www.framer.com/motion/",
     "Figma": "https://www.figma.com/",
-    "Better-auth": "https://better-auth.com/"
+    "Better-auth": "https://better-auth.com/",
+    "JWT": "https://jwt.io/"
   },
   "certificates": [
     {
