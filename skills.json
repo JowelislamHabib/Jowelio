@@ -15,13 +15,17 @@
     "Next.js",
     "WordPress",
     "XenForo",
-    "Shopify"
+    "Shopify",
+    "shadcn/ui",
+    "JWT",
+    "Framer Motion",
+    "Figma",
+    "Better-auth"
   ],
   "skillLinks": {
     "MongoDB": "https://www.mongodb.com/",
     "Express.js": "https://expressjs.com/",
     "React.js": "https://react.dev/",
-    "ReactJS": "https://react.dev/",
     "Next.js": "https://nextjs.org/",
     "Node.js": "https://nodejs.org/",
     "JavaScript": "https://en.wikipedia.org/wiki/JavaScript",
@@ -31,25 +35,12 @@
     "Bootstrap": "https://getbootstrap.com/",
     "WordPress": "https://wordpress.org/",
     "XenForo": "https://xenforo.com/",
-    "Shopify": "https://www.shopify.com/"
-  },
-  "skillIcons": {
-    "MongoDB": "https://cdn.simpleicons.org/mongodb",
-    "Express.js": "https://cdn.simpleicons.org/express/111111",
-    "React.js": "https://cdn.simpleicons.org/react",
-    "Node.js": "https://cdn.simpleicons.org/nodedotjs",
-    "JavaScript": "https://cdn.simpleicons.org/javascript",
-    "HTML5": "https://cdn.simpleicons.org/html5",
-    "CSS3": "https://cdn.simpleicons.org/css",
-    "Tailwind CSS": "https://cdn.simpleicons.org/tailwindcss",
-    "Bootstrap": "https://cdn.simpleicons.org/bootstrap",
-    "Next.js": "https://cdn.simpleicons.org/nextdotjs/111111",
-    "WordPress": "https://cdn.simpleicons.org/wordpress",
-    "Shopify": "https://cdn.simpleicons.org/shopify"
-  },
-  "darkSkillIcons": {
-    "Next.js": "https://cdn.simpleicons.org/nextdotjs/ffffff",
-    "Express.js": "https://cdn.simpleicons.org/express/ffffff"
+    "Shopify": "https://www.shopify.com/",
+    "shadcn/ui": "https://ui.shadcn.com/",
+     "JWT": "https://jwt.io/",
+    "Framer Motion": "https://www.framer.com/motion/",
+    "Figma": "https://www.figma.com/",
+    "Better-auth": "https://better-auth.com/"
   },
   "certificates": [
     {
