@@ -2,6 +2,56 @@
   "categories": ["All", "Full Stack", "NextJS", "ReactJS", "WordPress", "XenForo"],
   "projects": [
     {
+  "name": "AreaAlert — Community Incident Reporting & Public Safety Platform",
+  "thumbnail": "/project-images/areaalert-project.webp",
+  "label": "Full Stack Project",
+  "description": "Developed a full-stack community-driven platform that enables citizens to report, discover, and verify local emergencies and public incidents through interactive maps, role-based moderation, and real-time location awareness.",
+  "details": "AreaAlert is a production-ready public safety platform built with Next.js, Express.js, MongoDB, and Better Auth. The application empowers citizens to report incidents such as road accidents, crimes, fires, floods, and infrastructure issues while allowing nearby users to stay informed through an interactive map interface. The platform features multiple user roles—including Citizen, Journalist, Moderator, and Admin—with dedicated dashboards and permissions. It emphasizes secure authentication, scalable REST APIs, location-based reporting, efficient moderation workflows, optimized database design, and a responsive user experience.",
+  "keyContributions": [
+    "Built a complete multi-role platform with Citizen, Journalist, Moderator, and Admin dashboards",
+    "Designed a location-based incident reporting system with interactive maps and geospatial data",
+    "Implemented secure authentication and role-based authorization using Better Auth, JWT, and reusable middleware",
+    "Developed incident verification and moderation workflows to reduce misinformation",
+    "Built advanced search, filtering, and category-based browsing for public reports",
+    "Integrated Cloudinary for secure image uploads and optimized media management",
+    "Designed scalable RESTful APIs and optimized MongoDB queries for dashboard analytics and location-based searches"
+  ],
+  "challenges": [
+    "Designing scalable geospatial data structures for efficient location-based incident discovery",
+    "Building secure moderation and verification workflows across multiple user roles",
+    "Optimizing API performance while handling search, filtering, map rendering, and dashboard statistics"
+  ],
+  "futurePlans": [
+    "Add real-time notifications for nearby emergencies using WebSockets",
+    "Integrate government and emergency service verification channels",
+    "Introduce AI-assisted incident categorization and duplicate report detection"
+  ],
+  "tech": [
+    "Next.js",
+    "React.js",
+    "TypeScript",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "Better Auth",
+    "JWT",
+    "Tailwind CSS",
+    "Shadcn UI",
+    "Leaflet",
+    "OpenStreetMap",
+    "Cloudinary",
+    "Framer Motion"
+  ],
+  "github": "https://github.com/JowelislamHabib/Area-Alert",
+  "live": "https://areaalert.vercel.app/",
+  "category": "Full Stack",
+  "archived": false,
+  "archivedNote": "",
+  "waybackUrl": null,
+  "screenshots": [],
+  "showcaseVideoUrl": "https://youtu.be/HtLJMyklIqU"
+},
+    {
   "name": "GestorFitness — Fitness & Gym Management Platform",
   "thumbnail": "/project-images/gestorfitness-project.png",
   "label": "Full Stack Project",
