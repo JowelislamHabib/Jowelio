@@ -1,10 +1,10 @@
 {
-  "categories": ["All", "Full Stack", "NextJS", "ReactJS", "WordPress", "XenForo"],
+  "categories": ["All", "MERN Stack", "WordPress", "XenForo"],
   "projects": [
     {
   "name": "IdeaDen — AI-Powered Project Idea & Content Generation Platform",
   "thumbnail": "/project-images/ideaden-project.webp",
-  "label": "Full Stack Project",
+   "label": "MERN Stack",
   "description": "Developed a full-stack AI platform that transforms vague ideas into structured software project concepts and SEO-optimized blog content using Google Gemini AI, personalized developer preferences, and scalable backend services.",
   "details": "IdeaDen is a production-ready AI-powered platform built with Next.js 16, Express 5, TypeScript, and MongoDB. The application helps developers, founders, students, and content creators generate complete project ideas and publish-ready blog articles within seconds. The system features AI-assisted content generation, personalized recommendations, community content discovery, analytics dashboards, role-based access control, and secure authentication. The frontend and backend are deployed as independent Vercel applications, with Better Auth managing authentication and JWT verification handled through a JWKS endpoint for secure cross-service communication.",
   "keyContributions": [
@@ -55,7 +55,7 @@
     {
   "name": "AreaAlert — Community Incident Reporting & Public Safety Platform",
   "thumbnail": "/project-images/areaalert-project.webp",
-  "label": "Full Stack Project",
+   "label": "MERN Stack",
   "description": "Developed a full-stack community reporting platform that enables residents to report, verify, and track utility outages through location-based reporting, interactive maps, community validation, and role-based administration.",
   "details": "AreaAlert is a production-ready community reporting platform built with Next.js 16, Express 5, TypeScript, and MongoDB. The application allows residents to report electricity, internet, water, gas, and flood incidents while enabling the community to validate reports through voting and resolution confirmation. The frontend and backend are deployed as independent Vercel applications, with authentication managed by Better Auth and secured using JWT verification through a JWKS endpoint. The platform includes role-based dashboards, advanced filtering, interactive safety maps, MongoDB aggregation-based analytics, secure server actions, and a responsive user experience optimized for both desktop and mobile devices.",
   "keyContributions": [
@@ -107,7 +107,7 @@
     {
   "name": "GestorFitness — Fitness & Gym Management Platform",
   "thumbnail": "/project-images/gestorfitness-project.webp",
-  "label": "Full Stack Project",
+   "label": "MERN Stack",
   "description": "Developed a full-stack B2C fitness marketplace that connects members with certified trainers, enabling class discovery, secure bookings, trainer management, and an interactive fitness community.",
   "details": "GestorFitness is a production-ready fitness marketplace built with Next.js, Express.js, MongoDB, and Better Auth. The platform supports three user roles—Member, Trainer, and Admin—each with dedicated dashboards and permissions. Members can discover classes, save favorites, and book sessions using Stripe payments. Trainers can manage classes, monitor enrollments, and publish community content, while administrators oversee users, trainer applications, class approvals, transactions, and platform moderation. The project focuses on scalable architecture, secure role-based access control, optimized database queries, and a modern user experience.",
   "keyContributions": [
