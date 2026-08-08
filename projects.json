@@ -2,29 +2,34 @@
   "categories": ["All", "MERN Stack", "WordPress", "XenForo"],
   "projects": [
     {
-  "name": "IdeaDen — AI-Powered Project Idea & Content Generation Platform",
-  "thumbnail": "/project-images/ideaden-project.webp",
-   "label": "MERN Stack",
-  "description": "Developed a full-stack AI platform that transforms vague ideas into structured software project concepts and SEO-optimized blog content using Google Gemini AI, personalized developer preferences, and scalable backend services.",
-  "details": "IdeaDen is a production-ready AI-powered platform built with Next.js 16, Express 5, TypeScript, and MongoDB. The application helps developers, founders, students, and content creators generate complete project ideas and publish-ready blog articles within seconds. The system features AI-assisted content generation, personalized recommendations, community content discovery, analytics dashboards, role-based access control, and secure authentication. The frontend and backend are deployed as independent Vercel applications, with Better Auth managing authentication and JWT verification handled through a JWKS endpoint for secure cross-service communication.",
+  "name": "IdeaDen — AI-Powered Project Planning & Content Platform",
+  "thumbnail": "/project-images/ideaden-project.png",
+  "label": "Full Stack Project",
+  "description": "Developed a full-stack AI-powered platform that transforms ideas into structured PRDs, build-ready project documentation, and SEO-optimized content using Google Gemini AI, while providing subscription-based access through Stripe.",
+  "details": "IdeaDen is an AI-powered platform built with Next.js 16, Express 5, TypeScript, and MongoDB that helps developers move from a vague idea to a structured, build-ready project plan. Developers can generate personalized project ideas, transform any idea into a comprehensive 7-section PRD, and expand the PRD into five execution documents covering System Design, Site Map & User Flow, UI/UX Guidelines, Data Model, and Implementation Plan. The platform also provides an AI blog generator with customizable templates, tones, lengths, and SEO keywords. IdeaDen uses Google Gemini AI for content generation, Better Auth with JWT/JWKS for secure cross-service authentication, TanStack Query for data management, and Stripe for Pro subscriptions with webhook-based role synchronization. The frontend and backend run as separate Vercel deployments communicating through authenticated HTTP APIs.",
   "keyContributions": [
-    "Designed a distributed architecture with independent Next.js and Express deployments communicating through authenticated REST APIs",
-    "Integrated Google Gemini AI to generate structured software project ideas and SEO-optimized blog content using multiple generation templates",
-    "Implemented secure authentication using Better Auth, JWT, and JWKS verification across frontend and backend services",
-    "Built intelligent content de-duplication and developer preference-aware generation to produce more relevant AI results",
-    "Developed rate limiting with per-user cooldowns and subscription-based daily generation quotas for Free and Pro users",
-    "Created a personal analytics dashboard featuring generation statistics, technology distribution, topic insights, and activity trends using Recharts",
-    "Implemented community exploration with full-text search, advanced filtering, pagination, and related content recommendations"
+    "Designed and developed a complete AI-powered workflow that transforms project ideas into PRDs and five build-ready technical documents",
+    "Integrated Google Gemini AI through dedicated generation services for structured project ideas, PRDs, blog content, and project documentation",
+    "Built the PRD generation system with seven structured sections covering strategy, users, requirements, design, execution, planning, and risk",
+    "Implemented incremental Project Docs generation so individual documents are persisted as they are completed, allowing partial generations to survive API timeouts",
+    "Designed a distributed Next.js and Express architecture with secure JWT-based communication and remote JWKS verification across independent Vercel deployments",
+    "Implemented Stripe Checkout, customer portal, subscription management, and webhooks to synchronize Pro and Free user roles server-side",
+    "Built usage controls with per-user generation cooldowns, daily quotas for Free users, and unlimited generation access for Pro users",
+    "Developed community discovery with full-text search, visibility and duration filtering, sorting, pagination, and related project recommendations",
+    "Created personal and administrative analytics dashboards with technology distribution, blog topic distribution, and 14-day generation activity charts using Recharts",
+    "Implemented content de-duplication to prevent generating similar ideas and content from a user's previous generations"
   ],
   "challenges": [
-    "Designing secure authentication across independently deployed frontend and backend applications",
-    "Building reliable AI generation workflows while preventing duplicate content and maintaining personalized recommendations",
-    "Managing usage quotas, rate limiting, and scalable API communication for AI-powered features"
+    "Designing a secure authentication boundary between Better Auth on the frontend and JWT/JWKS verification on the Express backend",
+    "Building reliable multi-stage AI generation workflows where long-running Project Docs generation can partially complete and persist before a timeout",
+    "Managing AI usage limits, cooldowns, Free/Pro quotas, and subscription state across frontend, backend, and Stripe webhooks",
+    "Structuring AI-generated output into consistent PRDs and technical documentation while supporting different generation types and content formats"
   ],
   "futurePlans": [
-    "Support multiple LLM providers with automatic model selection",
-    "Generate architecture diagrams, database schemas, and API documentation alongside project ideas",
-    "Introduce collaborative workspaces, project sharing, and AI-assisted project refinement"
+    "Add AI-assisted project refinement and iterative editing for generated PRDs and project documents",
+    "Introduce project workspaces for organizing ideas, PRDs, and generated documentation",
+    "Add additional AI providers and model selection for different generation requirements",
+    "Enable collaborative project planning and sharing between developers and teams"
   ],
   "tech": [
     "Next.js 16",
