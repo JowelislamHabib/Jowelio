@@ -3,8 +3,8 @@
   "projects": [
     {
   "name": "IdeaDen — AI-Powered Project Planning & Content Platform",
-  "thumbnail": "/project-images/ideaden-project.png",
-  "label": "Full Stack Project",
+  "thumbnail": "/project-images/ideaden-project.webp",
+   "label": "MERN Stack",
   "description": "Developed a full-stack AI-powered platform that transforms ideas into structured PRDs, build-ready project documentation, and SEO-optimized content using Google Gemini AI, while providing subscription-based access through Stripe.",
   "details": "IdeaDen is an AI-powered platform built with Next.js 16, Express 5, TypeScript, and MongoDB that helps developers move from a vague idea to a structured, build-ready project plan. Developers can generate personalized project ideas, transform any idea into a comprehensive 7-section PRD, and expand the PRD into five execution documents covering System Design, Site Map & User Flow, UI/UX Guidelines, Data Model, and Implementation Plan. The platform also provides an AI blog generator with customizable templates, tones, lengths, and SEO keywords. IdeaDen uses Google Gemini AI for content generation, Better Auth with JWT/JWKS for secure cross-service authentication, TanStack Query for data management, and Stripe for Pro subscriptions with webhook-based role synchronization. The frontend and backend run as separate Vercel deployments communicating through authenticated HTTP APIs.",
   "keyContributions": [
