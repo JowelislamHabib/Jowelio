@@ -2,217 +2,218 @@
   "categories": ["All", "MERN Stack", "WordPress", "XenForo"],
   "projects": [
     {
-  "name": "IdeaDen — AI-Powered Project Planning & Content Platform",
-  "thumbnail": "/project-images/ideaden-project.webp",
-   "label": "MERN Stack",
-  "description": "Developed a full-stack AI-powered platform that transforms ideas into structured PRDs, build-ready project documentation, and SEO-optimized content using Google Gemini AI, while providing subscription-based access through Stripe.",
-  "details": "IdeaDen is an AI-powered platform built with Next.js 16, Express 5, TypeScript, and MongoDB that helps developers move from a vague idea to a structured, build-ready project plan. Developers can generate personalized project ideas, transform any idea into a comprehensive 7-section PRD, and expand the PRD into five execution documents covering System Design, Site Map & User Flow, UI/UX Guidelines, Data Model, and Implementation Plan. The platform also provides an AI blog generator with customizable templates, tones, lengths, and SEO keywords. IdeaDen uses Google Gemini AI for content generation, Better Auth with JWT/JWKS for secure cross-service authentication, TanStack Query for data management, and Stripe for Pro subscriptions with webhook-based role synchronization. The frontend and backend run as separate Vercel deployments communicating through authenticated HTTP APIs.",
-  "keyContributions": [
-    "Designed and developed a complete AI-powered workflow that transforms project ideas into PRDs and five build-ready technical documents",
-    "Integrated Google Gemini AI through dedicated generation services for structured project ideas, PRDs, blog content, and project documentation",
-    "Built the PRD generation system with seven structured sections covering strategy, users, requirements, design, execution, planning, and risk",
-    "Implemented incremental Project Docs generation so individual documents are persisted as they are completed, allowing partial generations to survive API timeouts",
-    "Designed a distributed Next.js and Express architecture with secure JWT-based communication and remote JWKS verification across independent Vercel deployments",
-    "Implemented Stripe Checkout, customer portal, subscription management, and webhooks to synchronize Pro and Free user roles server-side",
-    "Built usage controls with per-user generation cooldowns, daily quotas for Free users, and unlimited generation access for Pro users",
-    "Developed community discovery with full-text search, visibility and duration filtering, sorting, pagination, and related project recommendations",
-    "Created personal and administrative analytics dashboards with technology distribution, blog topic distribution, and 14-day generation activity charts using Recharts",
-    "Implemented content de-duplication to prevent generating similar ideas and content from a user's previous generations"
-  ],
-  "challenges": [
-    "Designing a secure authentication boundary between Better Auth on the frontend and JWT/JWKS verification on the Express backend",
-    "Building reliable multi-stage AI generation workflows where long-running Project Docs generation can partially complete and persist before a timeout",
-    "Managing AI usage limits, cooldowns, Free/Pro quotas, and subscription state across frontend, backend, and Stripe webhooks",
-    "Structuring AI-generated output into consistent PRDs and technical documentation while supporting different generation types and content formats"
-  ],
-  "futurePlans": [
-    "Add AI-assisted project refinement and iterative editing for generated PRDs and project documents",
-    "Introduce project workspaces for organizing ideas, PRDs, and generated documentation",
-    "Add additional AI providers and model selection for different generation requirements",
-    "Enable collaborative project planning and sharing between developers and teams"
-  ],
-  "tech": [
-    "Next.js 16",
-    "React 19",
-    "Express 5",
-    "TypeScript",
-    "MongoDB",
-    "Better Auth",
-    "JWT",
-    "JWKS",
-    "Google Gemini API Key",
-    "TanStack Query",
-    "Tailwind CSS",
-    "shadcn/ui",
-    "Recharts",
-    "Lucide React",
-    "ImgBB"
-  ],
-  "github": "https://github.com/JowelislamHabib/Idea-Den",
-  "live": "https://ideaden.vercel.app/",
-  "category": "MERN Stack",
-  "archived": false,
-  "archivedNote": "",
-  "waybackUrl": null,
-  "screenshots": [],
-  "showcaseVideoUrl": "https://youtu.be/5p5jOwmtN8Q"
-},
+      "name": "IdeaDen — AI-Powered Project Planning & Content Platform",
+      "thumbnail": "/project-thumbs/ideaden.webp",
+      "label": "MERN Stack",
+      "description": "Developed a full-stack AI-powered platform that transforms ideas into structured PRDs, build-ready project documentation, and SEO-optimized content using Google Gemini AI, while providing subscription-based access through Stripe.",
+      "details": "IdeaDen is an AI-powered platform built with Next.js 16, Express 5, TypeScript, and MongoDB that helps developers move from a vague idea to a structured, build-ready project plan. Developers can generate personalized project ideas, transform any idea into a comprehensive 7-section PRD, and expand the PRD into five execution documents covering System Design, Site Map & User Flow, UI/UX Guidelines, Data Model, and Implementation Plan. The platform also provides an AI blog generator with customizable templates, tones, lengths, and SEO keywords. IdeaDen uses Google Gemini AI for content generation, Better Auth with JWT/JWKS for secure cross-service authentication, TanStack Query for data management, and Stripe for Pro subscriptions with webhook-based role synchronization. The frontend and backend run as separate Vercel deployments communicating through authenticated HTTP APIs.",
+      "keyContributions": [
+        "Designed and developed a complete AI-powered workflow that transforms project ideas into PRDs and five build-ready technical documents",
+        "Integrated Google Gemini AI through dedicated generation services for structured project ideas, PRDs, blog content, and project documentation",
+        "Built the PRD generation system with seven structured sections covering strategy, users, requirements, design, execution, planning, and risk",
+        "Implemented incremental Project Docs generation so individual documents are persisted as they are completed, allowing partial generations to survive API timeouts",
+        "Designed a distributed Next.js and Express architecture with secure JWT-based communication and remote JWKS verification across independent Vercel deployments",
+        "Implemented Stripe Checkout, customer portal, subscription management, and webhooks to synchronize Pro and Free user roles server-side",
+        "Built usage controls with per-user generation cooldowns, daily quotas for Free users, and unlimited generation access for Pro users",
+        "Developed community discovery with full-text search, visibility and duration filtering, sorting, pagination, and related project recommendations",
+        "Created personal and administrative analytics dashboards with technology distribution, blog topic distribution, and 14-day generation activity charts using Recharts",
+        "Implemented content de-duplication to prevent generating similar ideas and content from a user's previous generations"
+      ],
+      "challenges": [
+        "Designing a secure authentication boundary between Better Auth on the frontend and JWT/JWKS verification on the Express backend",
+        "Building reliable multi-stage AI generation workflows where long-running Project Docs generation can partially complete and persist before a timeout",
+        "Managing AI usage limits, cooldowns, Free/Pro quotas, and subscription state across frontend, backend, and Stripe webhooks",
+        "Structuring AI-generated output into consistent PRDs and technical documentation while supporting different generation types and content formats"
+      ],
+      "futurePlans": [
+        "Add AI-assisted project refinement and iterative editing for generated PRDs and project documents",
+        "Introduce project workspaces for organizing ideas, PRDs, and generated documentation",
+        "Add additional AI providers and model selection for different generation requirements",
+        "Enable collaborative project planning and sharing between developers and teams"
+      ],
+      "tech": [
+        "Next.js 16",
+        "React 19",
+        "Express 5",
+        "TypeScript",
+        "MongoDB",
+        "Better Auth",
+        "JWT",
+        "JWKS",
+        "Google Gemini API Key",
+        "TanStack Query",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Recharts",
+        "Lucide React",
+        "ImgBB"
+      ],
+      "github": "https://github.com/JowelislamHabib/Idea-Den",
+      "live": "https://ideaden.vercel.app/",
+      "category": "MERN Stack",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": [],
+      "showcaseVideoUrl": "https://youtu.be/5p5jOwmtN8Q"
+    },
     {
-  "name": "AreaAlert — Community Incident Reporting & Public Safety Platform",
-  "thumbnail": "/project-images/areaalert-project.webp",
-   "label": "MERN Stack",
-  "description": "Developed a full-stack community reporting platform that enables residents to report, verify, and track utility outages through location-based reporting, interactive maps, community validation, and role-based administration.",
-  "details": "AreaAlert is a production-ready community reporting platform built with Next.js 16, Express 5, TypeScript, and MongoDB. The application allows residents to report electricity, internet, water, gas, and flood incidents while enabling the community to validate reports through voting and resolution confirmation. The frontend and backend are deployed as independent Vercel applications, with authentication managed by Better Auth and secured using JWT verification through a JWKS endpoint. The platform includes role-based dashboards, advanced filtering, interactive safety maps, MongoDB aggregation-based analytics, secure server actions, and a responsive user experience optimized for both desktop and mobile devices.",
-  "keyContributions": [
-    "Designed a distributed architecture with separate Next.js and Express deployments communicating through authenticated REST APIs",
-    "Implemented secure authentication using Better Auth, JWT, and JWKS verification across frontend and backend services",
-    "Built a complete community reporting workflow supporting utility outage submissions, voting, and service restoration confirmation",
-    "Developed interactive safety maps with district and area visualization, filtering, and severity indicators",
-    "Created role-based administration features including user moderation, report management, and platform analytics",
-    "Implemented advanced search, filtering, pagination, and historical report analysis for efficient data discovery",
-    "Optimized backend analytics using MongoDB aggregation pipelines and the native MongoDB driver without an ORM"
-  ],
-  "challenges": [
-    "Designing secure authentication across independently deployed frontend and backend applications",
-    "Building scalable location-based reporting and community verification workflows",
-    "Optimizing MongoDB aggregation queries for safety statistics while maintaining responsive dashboard performance"
-  ],
-  "futurePlans": [
-    "Add real-time outage notifications for affected areas",
-    "Introduce AI-assisted duplicate report detection and categorization",
-    "Expand interactive mapping with live incident updates and historical trend visualization"
-  ],
-  "tech": [
-    "Next.js 16",
-    "React 19",
-    "Express 5",
-    "TypeScript",
-    "MongoDB (Native Driver)",
-    "Better Auth",
-    "JWT",
-    "JWKS",
-    "Tailwind CSS v4",
-    "shadcn/ui",
-    "ImgBB",
-    "Lucide React",
-    "Recharts",
-    "Framer Motion",
-    "Vercel",
-    "esbuild"
-  ],
-  "github": "https://github.com/JowelislamHabib/Area-Alert",
-  "live": "https://area-alert-bd.vercel.app/",
-  "category": "MERN Stack",
-  "archived": false,
-  "archivedNote": "",
-  "waybackUrl": null,
-  "screenshots": [],
-  "showcaseVideoUrl": "https://youtu.be/HtLJMyklIqU"
-},
+      "name": "AreaAlert — Community Incident Reporting & Public Safety Platform",
+      "thumbnail": "/project-thumbs/areaalert.webp",
+      "label": "MERN Stack",
+      "description": "Developed a full-stack community reporting platform that enables residents to report, verify, and track utility outages through location-based reporting, interactive maps, community validation, and role-based administration.",
+      "details": "AreaAlert is a production-ready community reporting platform built with Next.js 16, Express 5, TypeScript, and MongoDB. The application allows residents to report electricity, internet, water, gas, and flood incidents while enabling the community to validate reports through voting and resolution confirmation. The frontend and backend are deployed as independent Vercel applications, with authentication managed by Better Auth and secured using JWT verification through a JWKS endpoint. The platform includes role-based dashboards, advanced filtering, interactive safety maps, MongoDB aggregation-based analytics, secure server actions, and a responsive user experience optimized for both desktop and mobile devices.",
+      "keyContributions": [
+        "Designed a distributed architecture with separate Next.js and Express deployments communicating through authenticated REST APIs",
+        "Implemented secure authentication using Better Auth, JWT, and JWKS verification across frontend and backend services",
+        "Built a complete community reporting workflow supporting utility outage submissions, voting, and service restoration confirmation",
+        "Developed interactive safety maps with district and area visualization, filtering, and severity indicators",
+        "Created role-based administration features including user moderation, report management, and platform analytics",
+        "Implemented advanced search, filtering, pagination, and historical report analysis for efficient data discovery",
+        "Optimized backend analytics using MongoDB aggregation pipelines and the native MongoDB driver without an ORM"
+      ],
+      "challenges": [
+        "Designing secure authentication across independently deployed frontend and backend applications",
+        "Building scalable location-based reporting and community verification workflows",
+        "Optimizing MongoDB aggregation queries for safety statistics while maintaining responsive dashboard performance"
+      ],
+      "futurePlans": [
+        "Add real-time outage notifications for affected areas",
+        "Introduce AI-assisted duplicate report detection and categorization",
+        "Expand interactive mapping with live incident updates and historical trend visualization"
+      ],
+      "tech": [
+        "Next.js 16",
+        "React 19",
+        "Express 5",
+        "TypeScript",
+        "MongoDB (Native Driver)",
+        "Better Auth",
+        "JWT",
+        "JWKS",
+        "Tailwind CSS v4",
+        "shadcn/ui",
+        "ImgBB",
+        "Lucide React",
+        "Recharts",
+        "Framer Motion",
+        "Vercel",
+        "esbuild"
+      ],
+      "github": "https://github.com/JowelislamHabib/Area-Alert",
+      "live": "https://area-alert-bd.vercel.app/",
+      "category": "MERN Stack",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": [],
+      "showcaseVideoUrl": "https://youtu.be/HtLJMyklIqU"
+    },
     {
-  "name": "GestorFitness — Fitness & Gym Management Platform",
-  "thumbnail": "/project-images/gestorfitness-project.webp",
-   "label": "MERN Stack",
-  "description": "Developed a full-stack B2C fitness marketplace that connects members with certified trainers, enabling class discovery, secure bookings, trainer management, and an interactive fitness community.",
-  "details": "GestorFitness is a production-ready fitness marketplace built with Next.js, Express.js, MongoDB, and Better Auth. The platform supports three user roles—Member, Trainer, and Admin—each with dedicated dashboards and permissions. Members can discover classes, save favorites, and book sessions using Stripe payments. Trainers can manage classes, monitor enrollments, and publish community content, while administrators oversee users, trainer applications, class approvals, transactions, and platform moderation. The project focuses on scalable architecture, secure role-based access control, optimized database queries, and a modern user experience.",
-  "keyContributions": [
-    "Built a complete multi-role platform with dedicated Member, Trainer, and Admin dashboards",
-    "Integrated Stripe payments for secure fitness class bookings with duplicate booking prevention",
-    "Developed class discovery with search, category filtering, and favorites management",
-    "Implemented community forums with posts, comments, likes, and trainer-generated content",
-    "Designed role-based authorization using Better Auth, JWT, and reusable middleware",
-    "Built trainer application workflow with admin approval and platform moderation features",
-    "Created analytics dashboards using Recharts for trainer and administrative insights"
-  ],
-  "challenges": [
-    "Implementing secure role-based access control across multiple dashboards and APIs",
-    "Managing complex booking, payment, and trainer approval workflows",
-    "Optimizing MongoDB queries for real-time search, filtering, and dashboard statistics"
-  ],
-  "futurePlans": [
-    "Add live messaging between members and trainers",
-    "Introduce recurring subscriptions and membership plans",
-    "Implement real-time notifications and calendar synchronization"
-  ],
-  "tech": [
-    "Next.js",
-    "React.js",
-    "Express.js",
-    "MongoDB",
-    "Better Auth",
-    "JWT",
-    "Stripe",
-    "Tailwind CSS",
-    "Shadcn UI",
-    "Framer Motion",
-    "Recharts"
-  ],
-  "github": "https://github.com/JowelislamHabib/GestorFitness-client",
-  "live": "https://gestorfitness.vercel.app/",
-  "category": "MERN Stack",
-  "archived": false,
-  "archivedNote": "",
-  "waybackUrl": null,
-  "screenshots": [],
-  "showcaseVideoUrl": "https://youtu.be/H1hfgCBxLTg"
-},{
-  "name": "QuietHub — Room & Workspace Booking Platform",
-  "thumbnail": "/project-images/quiethub-project.webp",
-  "label": "Practice Project",
-  "description": "Developed a full-stack room and workspace booking platform that allows users to browse available rooms, make reservations, manage bookings, and prevent overlapping schedules through backend validation logic.",
-  "details": "QuietHub is a real-world booking platform built with Next.js, Express.js, and MongoDB, focused on handling authentication workflows, booking validation systems, and scalable backend architecture. The project includes protected APIs, JWT-based authentication using Better Auth, room management, booking rescheduling, and time conflict prevention. Significant focus was placed on understanding backend structure, MongoDB aggregation pipelines, reusable middleware patterns, and handling complex date/time booking logic in practical scenarios.",
-  "keyContributions": [
-    "Built JWT-based authentication system using Better Auth with protected Express.js APIs",
-    "Developed complete room management functionality including creation, editing, and deletion",
-    "Implemented booking system with reservation, rescheduling, and cancellation support",
-    "Created backend validation logic to prevent overlapping room bookings and scheduling conflicts",
-    "Integrated MongoDB aggregation pipelines to combine room and booking-related data efficiently",
-    "Designed reusable middleware and utility-based backend structure for maintainability",
-    "Implemented room search and filtering functionality for improved user experience",
-    "Built responsive frontend UI using Tailwind CSS and HeroUI components"
-  ],
-  "challenges": [
-    "Understanding JWT verification flow between frontend and backend systems",
-    "Preventing overlapping bookings without creating false-positive conflicts",
-    "Handling different date and time formats consistently across booking operations",
-    "Managing MongoDB ObjectId values alongside custom string-based room IDs",
-    "Learning aggregation pipelines to include room details inside booking responses",
-    "Structuring backend logic into reusable middleware and utility functions instead of route-heavy code",
-    "Handling booking count updates correctly after cancellations and rescheduling",
-    "Debugging authentication issues and protected API access"
-  ],
-  "futurePlans": [
-    "Add payment integration for paid reservations",
-    "Implement real-time booking updates using Socket.IO",
-    "Add admin dashboard with moderation and analytics features",
-    "Improve API validation, error handling, and backend scalability",
-    "Add automated testing for booking workflows and APIs",
-    "Enhance calendar visualization and room availability UI"
-  ],
-  "tech": [
-    "Next.js",
-    "React.js",
-    "Express.js",
-    "MongoDB",
-    "Better Auth",
-    "JWT",
-    "JOSE",
-    "Tailwind CSS",
-    "HeroUI",
-    "Motion",
-    "React Icons"
-  ],
-  "github": "https://github.com/JowelislamHabib/QuietHub--Where-Deep-Focus-Begins",
-  "live": "https://quiethub.vercel.app/",
-  "category": "MERN Stack",
-  "archived": false,
-  "archivedNote": "",
-  "waybackUrl": null,
-  "screenshots": []
-},
+      "name": "GestorFitness — Fitness & Gym Management Platform",
+      "thumbnail": "/project-thumbs/gestorfitness.webp",
+      "label": "MERN Stack",
+      "description": "Developed a full-stack B2C fitness marketplace that connects members with certified trainers, enabling class discovery, secure bookings, trainer management, and an interactive fitness community.",
+      "details": "GestorFitness is a production-ready fitness marketplace built with Next.js, Express.js, MongoDB, and Better Auth. The platform supports three user roles—Member, Trainer, and Admin—each with dedicated dashboards and permissions. Members can discover classes, save favorites, and book sessions using Stripe payments. Trainers can manage classes, monitor enrollments, and publish community content, while administrators oversee users, trainer applications, class approvals, transactions, and platform moderation. The project focuses on scalable architecture, secure role-based access control, optimized database queries, and a modern user experience.",
+      "keyContributions": [
+        "Built a complete multi-role platform with dedicated Member, Trainer, and Admin dashboards",
+        "Integrated Stripe payments for secure fitness class bookings with duplicate booking prevention",
+        "Developed class discovery with search, category filtering, and favorites management",
+        "Implemented community forums with posts, comments, likes, and trainer-generated content",
+        "Designed role-based authorization using Better Auth, JWT, and reusable middleware",
+        "Built trainer application workflow with admin approval and platform moderation features",
+        "Created analytics dashboards using Recharts for trainer and administrative insights"
+      ],
+      "challenges": [
+        "Implementing secure role-based access control across multiple dashboards and APIs",
+        "Managing complex booking, payment, and trainer approval workflows",
+        "Optimizing MongoDB queries for real-time search, filtering, and dashboard statistics"
+      ],
+      "futurePlans": [
+        "Add live messaging between members and trainers",
+        "Introduce recurring subscriptions and membership plans",
+        "Implement real-time notifications and calendar synchronization"
+      ],
+      "tech": [
+        "Next.js",
+        "React.js",
+        "Express.js",
+        "MongoDB",
+        "Better Auth",
+        "JWT",
+        "Stripe",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "Framer Motion",
+        "Recharts"
+      ],
+      "github": "https://github.com/JowelislamHabib/GestorFitness-client",
+      "live": "https://gestorfitness.vercel.app/",
+      "category": "MERN Stack",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": [],
+      "showcaseVideoUrl": "https://youtu.be/H1hfgCBxLTg"
+    },
+    {
+      "name": "QuietHub — Room & Workspace Booking Platform",
+      "thumbnail": "/project-thumbs/quiethub.webp",
+      "label": "Practice Project",
+      "description": "Developed a full-stack room and workspace booking platform that allows users to browse available rooms, make reservations, manage bookings, and prevent overlapping schedules through backend validation logic.",
+      "details": "QuietHub is a real-world booking platform built with Next.js, Express.js, and MongoDB, focused on handling authentication workflows, booking validation systems, and scalable backend architecture. The project includes protected APIs, JWT-based authentication using Better Auth, room management, booking rescheduling, and time conflict prevention. Significant focus was placed on understanding backend structure, MongoDB aggregation pipelines, reusable middleware patterns, and handling complex date/time booking logic in practical scenarios.",
+      "keyContributions": [
+        "Built JWT-based authentication system using Better Auth with protected Express.js APIs",
+        "Developed complete room management functionality including creation, editing, and deletion",
+        "Implemented booking system with reservation, rescheduling, and cancellation support",
+        "Created backend validation logic to prevent overlapping room bookings and scheduling conflicts",
+        "Integrated MongoDB aggregation pipelines to combine room and booking-related data efficiently",
+        "Designed reusable middleware and utility-based backend structure for maintainability",
+        "Implemented room search and filtering functionality for improved user experience",
+        "Built responsive frontend UI using Tailwind CSS and HeroUI components"
+      ],
+      "challenges": [
+        "Understanding JWT verification flow between frontend and backend systems",
+        "Preventing overlapping bookings without creating false-positive conflicts",
+        "Handling different date and time formats consistently across booking operations",
+        "Managing MongoDB ObjectId values alongside custom string-based room IDs",
+        "Learning aggregation pipelines to include room details inside booking responses",
+        "Structuring backend logic into reusable middleware and utility functions instead of route-heavy code",
+        "Handling booking count updates correctly after cancellations and rescheduling",
+        "Debugging authentication issues and protected API access"
+      ],
+      "futurePlans": [
+        "Add payment integration for paid reservations",
+        "Implement real-time booking updates using Socket.IO",
+        "Add admin dashboard with moderation and analytics features",
+        "Improve API validation, error handling, and backend scalability",
+        "Add automated testing for booking workflows and APIs",
+        "Enhance calendar visualization and room availability UI"
+      ],
+      "tech": [
+        "Next.js",
+        "React.js",
+        "Express.js",
+        "MongoDB",
+        "Better Auth",
+        "JWT",
+        "JOSE",
+        "Tailwind CSS",
+        "HeroUI",
+        "Motion",
+        "React Icons"
+      ],
+      "github": "https://github.com/JowelislamHabib/QuietHub--Where-Deep-Focus-Begins",
+      "live": "https://quiethub.vercel.app/",
+      "category": "MERN Stack",
+      "archived": false,
+      "archivedNote": "",
+      "waybackUrl": null,
+      "screenshots": []
+    },
     {
       "name": "CoinTax - The Leading UK Cryptocurrency Accounting Firm",
-      "thumbnail": "/project-images/cointax-project.webp",
+      "thumbnail": "/project-thumbs/cointax.webp",
       "label": "Client Project",
       "description": "Developed and implemented the WordPress version of the CoinTax website, a UK-based cryptocurrency accounting firm specializing in tax services for crypto investors and businesses.",
       "details": "Responsibilities included converting the original design into a fully functional WordPress website, implementing responsive layouts, integrating dynamic components, and deploying the site to a live production environment.",
@@ -241,7 +242,7 @@
     },
     {
       "name": "ComAllies - Corporate Communications And Public Affairs Advice And Support.",
-      "thumbnail": "/project-images/comallies-project.webp",
+      "thumbnail": "/project-thumbs/comallies.webp",
       "label": "Client Project",
       "description": "Designed and developed the official website for ComAllies, a corporate communications and public affairs consultancy.",
       "details": "The project involved creating a modern and responsive website using WordPress CMS, translating design concepts into a functional website, and ensuring optimal performance across devices and browsers.",
@@ -270,7 +271,7 @@
     },
     {
       "name": "Believers Vision Publication - Islamic Books & Publications Website",
-      "thumbnail": "/project-images/believers-project.webp",
+      "thumbnail": "/project-thumbs/believersvision.webp",
       "label": "Client Project",
       "description": "Designed and developed the official website for Believers Vision Publication, an online platform dedicated to Islamic books and publications.",
       "details": "The project involved creating a modern and user-friendly website using WordPress CMS, implementing structured layouts for books and content, and ensuring the website works smoothly across all devices.",
@@ -299,7 +300,7 @@
     },
     {
       "name": "Salafi Forum - Online Community Platform",
-      "thumbnail": "/project-images/salafiforum-project.webp",
+      "thumbnail": "/project-thumbs/salafiforum.webp",
       "label": "Client Project",
       "description": "Designed and developed the Salafi Forum online community platform using the XenForo forum CMS.",
       "details": "The project involved building the complete community structure, implementing custom design and layouts, and configuring advanced role-based permission systems to manage different user groups and moderation levels.",
@@ -329,7 +330,7 @@
     },
     {
       "name": "Abdul Hamid Al Faizi Al Madani - Author Website & Digital Library",
-      "thumbnail": "/project-images/abdulhamid-project.webp",
+      "thumbnail": "/project-thumbs/sheikhfaizi.webp",
       "label": "Client Project",
       "description": "Designed, developed, and deployed the official website for a well-known Islamic author, providing a platform for readers to access books, reviews, and blog content.",
       "details": "The project involved creating a clean and user-friendly website that allows visitors to download books, submit reviews, and read blog posts. The platform was built with a focus on performance, accessibility, and seamless user experience across all devices.",
@@ -359,7 +360,7 @@
     },
     {
       "name": "Cartecadeau PF - Website Recovery, Malware Cleanup & Secure Migration",
-      "thumbnail": "/project-images/cartecadeaupf-project.webp",
+      "thumbnail": "/project-thumbs/cartecadeau.webp",
       "label": "Client Project",
       "description": "Performed full recovery, malware cleanup, and secure migration of a compromised WordPress website, restoring it to a stable production-ready state.",
       "details": "The project involved identifying and removing malware from an infected WordPress installation, verifying file integrity, and migrating the website to a clean Cloudways VPS environment. Additional work included server configuration, SSL setup, and resolving DNS propagation issues to ensure consistent global accessibility.",
@@ -385,65 +386,6 @@
       "archived": false,
       "archivedNote": "",
       "waybackUrl": null,
-      "screenshots": []
-    },
-    {
-      "name": "Telegage - Business Website",
-      "thumbnail": "/project-images/telegage-project.webp",
-      "label": "Client Project",
-      "description": "Designed and developed the Telegage website using WordPress and Elementor, creating a modern and visually engaging online presence.",
-      "details": "The project involved building a fully responsive website with Elementor, translating design ideas into a functional layout, and ensuring smooth performance across all devices. Focus was placed on clean UI/UX, structured content presentation, and ease of management through WordPress CMS.",
-      "keyContributions": [
-        "Designed the website layout and user interface using Elementor",
-        "Developed the website using WordPress CMS",
-        "Implemented responsive design for mobile, tablet, and desktop",
-        "Structured pages for services, content, and business information",
-        "Optimized performance and usability",
-        "Deployed and configured the website on a live production server"
-      ],
-      "challenges": [
-        "Managing timeline, quality, and compatibility constraints."
-      ],
-      "futurePlans": [
-        "Add richer automation and continue iterative UI/UX refinement."
-      ],
-      "tech": ["WordPress", "Elementor", "PHP", "HTML", "CSS", "JavaScript"],
-      "github": null,
-      "live": "https://telegage.io/",
-      "category": "WordPress",
-      "archived": false,
-      "archivedNote": "",
-      "waybackUrl": null,
-      "screenshots": []
-    },
-    {
-      "name": "Davita Clinics - Healthcare Services Website",
-      "thumbnail": "/project-images/davita-project.webp",
-      "label": "Client Project",
-      "description": "Designed, developed, and deployed a healthcare services website for Davita Clinics, providing information about clinic locations, patient care, and medical services.",
-      "details": "The project involved building a fully responsive WordPress website that allowed users to explore clinic availability across different locations in Saudi Arabia, view healthcare statistics such as patient care capacity, and access information about doctors and elderly care services. The website is now offline due to internal client decisions.",
-      "keyContributions": [
-        "Designed the website layout and user interface",
-        "Developed the website using WordPress CMS",
-        "Structured pages for clinic locations, services, and healthcare information",
-        "Integrated dynamic content for patient statistics and medical staff details",
-        "Implemented responsive design for mobile, tablet, and desktop",
-        "Optimized performance and usability",
-        "Deployed and configured the website on a live production server"
-      ],
-      "challenges": [
-        "Managing timeline, quality, and compatibility constraints."
-      ],
-      "futurePlans": [
-        "Add richer automation and continue iterative UI/UX refinement."
-      ],
-      "tech": ["WordPress", "PHP", "HTML", "CSS", "JavaScript"],
-      "github": null,
-      "live": null,
-      "category": "WordPress",
-      "archived": true,
-      "archivedNote": "The client discontinued the website due to internal operational changes.",
-      "waybackUrl": "https://web.archive.org/web/20250415203724/https://davitaclinics.com/",
       "screenshots": []
     }
   ]
