@@ -10,8 +10,19 @@
     "label": "Resume",
     "href": "https://jowel.bintofajjal.com/resume/Jowel_Islam_Habib.pdf"
   },
-  "videoCta": {
-    "label": "Watch Intro",
-    "href": "https://www.youtube.com/embed/jP1iYbpLp0Q?autoplay=1"
+  "sellingPoints": [
+    "Turn Visitors Into Paying Clients",
+    "High-Speed, Custom Web Solutions",
+    "Built to Maximize Your Revenue"
+  ],
+  "trustedClients": {
+    "count": "34+",
+    "avatars": [
+      "/clients/bashier.webp",
+      "/clients/amro.webp",
+      "/clients/thomas.webp",
+      "/clients/nadia.webp",
+      "/clients/saj.webp"
+    ]
   }
 }
