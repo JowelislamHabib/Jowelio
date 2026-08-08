@@ -1,7 +1,7 @@
 {
-  "badgeText": "Building MERN Apps",
+  "badgeText": "Building Production-Ready Web Apps",
   "title": "Jowel Islam Habib",
-  "description": "MERN Stack Developer building modern full-stack web applications using JavaScript, React.js, Next.js, Node.js, Express.js, and MongoDB. Backed by strong real-world experience in CMS development, server management, and production deployments.",
+  "description": "MERN Stack Developer building modern, production-ready web applications with React, Next.js, Node.js, Express.js, and MongoDB. Backed by years of real-world experience in web development, server management, and production deployments.",
   "primaryCta": {
     "label": "Contact Me",
     "href": "#contact"
@@ -11,9 +11,9 @@
     "href": "https://jowel.bintofajjal.com/resume/Jowel_Islam_Habib.pdf"
   },
   "sellingPoints": [
-    "Turn Visitors Into Paying Clients",
-    "High-Speed, Custom Web Solutions",
-    "Built to Maximize Your Revenue"
+    "Modern Full-Stack Applications",
+    "REST APIs & Database-Driven Systems",
+    "Deployment, Servers & Production Support"
   ],
   "trustedClients": {
     "count": "34+",
